@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkutmfd"]=self["webpackChunkutmfd"]||[]).push([[67],{9067:function(t,e,n){n.r(e),n.d(e,{default:function(){return p}});var l=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("v-container",{staticClass:"fill-height"},[n("v-row",[n("v-col",[n("p",{staticClass:"text-center display-1"},[t._v("仍在开发中...")])])],1)],1)},s=[],u=n(1001),r=n(3453),a=n.n(r),c=n(2102),i=n(9846),f=n(2877),o={},h=(0,u.Z)(o,l,s,!1,null,null,null),p=h.exports;a()(h,{VCol:c.Z,VContainer:i.Z,VRow:f.Z})}}]);
-//# sourceMappingURL=67-legacy.fca65419.js.map

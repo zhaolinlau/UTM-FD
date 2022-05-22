@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkutmfd"]=self["webpackChunkutmfd"]||[]).push([[1],[,function(t,n,e){e.r(n),e.d(n,{default:function(){return v}});var l=function(){var t=this,n=t.$createElement,e=t._self._c||n;return e("v-container",[e("v-row",[e("v-col",[e("p",{staticClass:"text-center display-1"},[t._v("仍在开发中...")])])],1)],1)},u=[],r=e(1001),c=e(3453),s=e.n(c),a=e(2102),o=e(9846),f=e(2877),i={},p=(0,r.Z)(i,l,u,!1,null,null,null),v=p.exports;s()(p,{VCol:a.Z,VContainer:o.Z,VRow:f.Z})}]]);
+//# sourceMappingURL=1-legacy.85f187d5.js.map
