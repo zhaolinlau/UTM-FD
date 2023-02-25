@@ -6,10 +6,12 @@ import AppFooter from './components/AppFooter.vue'
 
 <template>
 	<v-layout>
-		<AppBar />
-
-		<RouterView />
-
-		<AppFooter />
+		<v-main>
+			<AppBar />
+			<v-container fluid>
+				<RouterView />
+			</v-container>
+			<AppFooter />
+		</v-main>
 	</v-layout>
 </template>
