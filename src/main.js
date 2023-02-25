@@ -1,16 +1,19 @@
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
-import vuetify from './plugins/vuetify'
-import mdi from '@mdi/font/css/materialdesignicons.css'
-import animate from 'animate.css'
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
+import "vuetify/styles";
+import { createVuetify } from "vuetify";
+import mdi from "@mdi/font/css/materialdesignicons.css";
+import * as components from "vuetify/components";
+import * as directives from "vuetify/directives";
 
-Vue.config.productionTip = false
+const app = createApp(App);
 
-new Vue({
-  animate,
-  mdi,
-  router,
-  vuetify,
-  render: h => h(App)
-}).$mount('#app')
+const vuetify = createVuetify({
+	components,
+	directives,
+});
+
+app.use(router).use(vuetify).use(mdi);
+
+app.mount("#app");
