@@ -1,3 +1,8 @@
+<script setup>
+import setem1 from "@/assets/setem1.png"
+import setem2 from "@/assets/setem2.png"
+</script>
+
 <template>
 	<v-row class="text-center" id="live">
 		<v-col>
@@ -190,14 +195,14 @@
 						<v-row>
 							<v-col md="2">
 								<v-row>
-									<v-img src="../assets/setem1.png" max-width="132" class="ml-2 ml-md-7"></v-img>
+									<v-img :src="setem1" max-width="132" class="ml-2 ml-md-7"></v-img>
 								</v-row>
 								<v-row> Pos Malaysia的Setem Hasil </v-row>
 							</v-col>
 
 							<v-col md="2">
 								<v-row>
-									<v-img src="../assets/setem2.png" max-width="112" class="ml-3"></v-img>
+									<v-img :src="setem2" max-width="112" class="ml-3"></v-img>
 								</v-row>
 								<v-row> LHDN的Setem Hasil </v-row>
 							</v-col>
