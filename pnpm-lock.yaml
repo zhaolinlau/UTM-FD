@@ -3,12 +3,14 @@ lockfileVersion: 5.4
 specifiers:
   '@mdi/font': ^7.1.96
   '@vitejs/plugin-vue': ^4.0.0
+  animate.css: ^4.1.1
   vite: ^4.1.3
   vue: ^3.2.47
   vue-router: ^4.1.6
   vuetify: ^3.1.6
 
 dependencies:
+  animate.css: 4.1.1
   vue: 3.2.47
   vue-router: 4.1.6_vue@3.2.47
   vuetify: 3.1.6_vue@3.2.47
@@ -332,6 +334,10 @@ packages:
 
   /@vue/shared/3.2.47:
     resolution: {integrity: sha512-BHGyyGN3Q97EZx0taMQ+OLNuZcW3d37ZEVmEAyeoA9ERdGvm9Irc/0Fua8SNyOtV1w6BS4q25wbMzJujO9HIfQ==}
+
+  /animate.css/4.1.1:
+    resolution: {integrity: sha512-+mRmCTv6SbCmtYJCN4faJMNFVNN5EuCTTprDTAo7YzIGji2KADmakjVA3+8mVDkZ2Bf09vayB35lSQIex2+QaQ==}
+    dev: false
 
   /csstype/2.6.21:
     resolution: {integrity: sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==}
