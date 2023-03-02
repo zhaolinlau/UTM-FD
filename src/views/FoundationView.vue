@@ -1,5 +1,5 @@
 <template>
-	<v-row class="text-center">
+	<v-row class="text-center" id="live">
 		<v-col>
 			<p class="text-h5">
 				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite">
@@ -14,6 +14,12 @@
 					target="_blank" class="text-red">点击这里</a>
 				追踪
 			</p>
+		</v-col>
+	</v-row>
+
+	<v-row>
+		<v-col>
+
 		</v-col>
 	</v-row>
 </template>
