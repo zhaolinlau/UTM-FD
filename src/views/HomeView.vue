@@ -33,7 +33,7 @@ import confession from '../assets/confession.jpg'
 
 	<v-row class="mt-16" justify="center">
 		<v-col cols="12">
-			<p class="text-center headline">合作伙伴 & 特别赞助</p>
+			<p class="text-center text-h5">合作伙伴 & 特别赞助</p>
 		</v-col>
 
 		<v-col lg="2" class="d-flex justify-center">
