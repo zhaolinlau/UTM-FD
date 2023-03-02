@@ -409,7 +409,7 @@ import setem2 from "@/assets/setem2.png"
 						Bank是什么银行？
 					</v-expansion-panel-title>
 					<v-expansion-panel-text>
-						<v-simple-table>
+						<v-table hover>
 							<thead>
 								<tr>
 									<th>Campus</th>
@@ -426,12 +426,18 @@ import setem2 from "@/assets/setem2.png"
 									<td>Bank Islam malaysia Berhad</td>
 								</tr>
 							</tbody>
-						</v-simple-table>
+							<tfoot>
+								<tr>
+									<th>Campus</th>
+									<th>Panel Bank Name</th>
+								</tr>
+							</tfoot>
+						</v-table>
 						<span class="font-weight-bold">只可以开设学校官方指定户口！！！Degree时期学校只限制Panel
 							Bank的交易。</span>
 						<br />
-						<span class="font-weight-bold red--text">PTPTN的银行户口是强制性的！！！必须在指定银行开户，不可以使用其他银行的户口来申请PTPTN！！！<span
-								class="red white--text">（PTPTN的指定银行为Bank Islam）</span></span>
+						<span class="font-weight-bold text-red">PTPTN的银行户口是强制性的！！！必须在指定银行开户，不可以使用其他银行的户口来申请PTPTN！！！<span
+								class="bg-red">（PTPTN的指定银行为Bank Islam）</span></span>
 					</v-expansion-panel-text>
 				</v-expansion-panel>
 
@@ -443,7 +449,7 @@ import setem2 from "@/assets/setem2.png"
 					<v-expansion-panel-text>
 						如果是联名户口，建议把他分出来成个人户口或者开设一个新的个人户口，因为当UTM需要退款的时候，必须核实到时学生的名字方可继续处理，<span
 							class="font-weight-bold">若没有将会有所耽搁或者照成退款失败。<span
-								class="red white--text">（如果你还没有过生日，一样可以开户！只是银行账户会限定交易额度，这个额度可以在生日后到银行更新。）</span></span>
+								class="bg-red">（如果你还没有过生日，一样可以开户！只是银行账户会限定交易额度，这个额度可以在生日后到银行更新。）</span></span>
 					</v-expansion-panel-text>
 				</v-expansion-panel>
 
@@ -453,7 +459,7 @@ import setem2 from "@/assets/setem2.png"
 					</v-expansion-panel-title>
 					<v-expansion-panel-text>
 						需要开户的东西如下：（有分18岁以上或者18岁以下，年龄以生日日期为准）
-						<v-simple-table>
+						<v-table hover>
 							<thead>
 								<tr>
 									<th>18岁以上</th>
@@ -478,7 +484,13 @@ import setem2 from "@/assets/setem2.png"
 									<td>任何一位父母（需要帮忙签名）</td>
 								</tr>
 							</tbody>
-						</v-simple-table>
+							<tfoot>
+								<tr>
+									<th>18岁以上</th>
+									<th>18岁以下</th>
+								</tr>
+							</tfoot>
+						</v-table>
 					</v-expansion-panel-text>
 				</v-expansion-panel>
 
@@ -488,7 +500,7 @@ import setem2 from "@/assets/setem2.png"
 					</v-expansion-panel-title>
 					<v-expansion-panel-text>
 						有，可以参考这个链接：<a href="https://drive.google.com/drive/folders/18vRsYVu0sjYLAtdbQeIuMl0Qo_Rqg7wh?usp=sharing"
-							target="_blank" class="red--text">BORANG KEMASUKAN KE UTM - SAMPLE</a>
+							target="_blank" class="text-red">BORANG KEMASUKAN KE UTM - SAMPLE</a>
 						<br />
 						<span class="font-weight-bold">近期将会开放</span>
 					</v-expansion-panel-text>
@@ -537,7 +549,7 @@ import setem2 from "@/assets/setem2.png"
 								3a跟3b牵扯到担保人的部分，所以必须要有政府部门的签署，这样这两份文件才具有法律效益哦。
 							</li>
 						</ol>
-						<span class="font-weight-bold">Borang 3a3b小科普</span><br />
+						<span class="font-weight-bold">Borang 3a & 3b小科普</span><br />
 						Borang 3a and
 						3b是让学生签署担保人。如果学生在上学时期无法定时缴付学费的话，但是父母也没有钱缴付或者联系不到的话。学校将会根据法律效益，找penjamin来缴付该学生的学费。如果一号penjamin找不到，将会找penjamin二号来收取该学生的学费。所以，penjamin建议是自己的亲戚朋友或者是兄弟姐妹，不建议找外人，除非你得到同意。
 					</v-expansion-panel-text>
