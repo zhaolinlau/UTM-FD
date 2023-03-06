@@ -7,11 +7,11 @@ import setem2 from "@/assets/setem2.png"
 	<v-row class="text-center" id="live">
 		<v-col>
 			<p class="text-h5">
-				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite">
-					mdi-hand-pointing-right</v-icon>
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
 				实时更新
-				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite">
-					mdi-hand-pointing-left</v-icon>
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
 			</p>
 			<p>
 				Foundation回忆录实时更新版本
@@ -25,10 +25,11 @@ import setem2 from "@/assets/setem2.png"
 	<v-row id="date">
 		<v-col>
 			<p class="text-center text-h5">
-				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite">
-					mdi-hand-pointing-right</v-icon>重要日期
-				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite">
-					mdi-hand-pointing-left</v-icon>
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				重要日期
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
 			</p>
 			<p class="text-h6">UTM FOUNDATION PROGRAMME</p>
 			<p class="text-subtitle-1">INTAKE: JULY 2022</p>
@@ -96,10 +97,11 @@ import setem2 from "@/assets/setem2.png"
 	<v-row id="form_faq">
 		<v-col>
 			<p class="text-center text-h5">
-				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite">
-					mdi-hand-pointing-right</v-icon>填写表格疑问
-				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite">
-					mdi-hand-pointing-left</v-icon>
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				填写表格疑问
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
 			</p>
 			<v-expansion-panels>
 				<v-expansion-panel>
@@ -552,6 +554,127 @@ import setem2 from "@/assets/setem2.png"
 						<span class="font-weight-bold">Borang 3a & 3b小科普</span><br />
 						Borang 3a and
 						3b是让学生签署担保人。如果学生在上学时期无法定时缴付学费的话，但是父母也没有钱缴付或者联系不到的话。学校将会根据法律效益，找penjamin来缴付该学生的学费。如果一号penjamin找不到，将会找penjamin二号来收取该学生的学费。所以，penjamin建议是自己的亲戚朋友或者是兄弟姐妹，不建议找外人，除非你得到同意。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+			</v-expansion-panels>
+		</v-col>
+	</v-row>
+
+	<v-row class="class_faq">
+		<v-col>
+			<p class="text-h5 text-center">
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				日常上课疑问
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
+			</p>
+			<v-expansion-panels>
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						1. idp生是和mainstream生一起上课的还是分开？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						两者是一起上课的哦。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						2. 上课和考试时候是用什么语言啊？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						除了部分大专必修科（University General
+						Course），其他科目考试时候一定是用英文。上课的话是根据
+						lecturer，教材会使用英文，但是同时也会用国文作为辅助。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						3. foundation的老师跟degree的一样吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						foundation 和
+						degree的师资是有些许不一样的。但是别担心因为utm
+						foundation的师资都是有拿到专业文凭并且可以成为合格的教授的，他们也都是utm自己的教授哦。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						4.
+						上课有需要准备些什么standard的簿子或是textpad吗？还是多数用电脑？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						可以自备簿子或者白纸方便记录资料，教学的讲义和内容都需要根据lecturer，有的会给softcopy让我们自行打印（例如PowerPoint）有的则是要求需要用指定的书本。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						5. Johor的周末是在星期五和六吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						是的，所以星期五和六是没有上课的，除非教授要求。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						6. 请问foundation的文凭是utm的还是utmspace自己的？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						文凭一样是utm的，只是课程是由UTMSpace在管理。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						7. 请问我现在读的是第一个学期 （Semester
+						I），为什么在学校的官方文件里面是写我们现在在读着第二个学期（Semester
+						II）？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						2020年开始的Foundation课程，学校已经把原本的short
+						sem也就是sem
+						1调整到了最后一个sem，因为当时候收到Covid-19的影响，也把原定在4月开课的课程延迟到7月，学校以比较方便整理课程等等东西，所以就做出了以下的调整：
+						<br />
+						Short Sem: 10 weeks ; Long Sem: 21 weeks (Include mid &
+						final sem break)
+						<v-table hover>
+							<thead>
+								<tr>
+									<th>学期</th>
+									<th>2020年之前</th>
+									<th>2020年之后</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1st Sem</td>
+									<td>Sem I (Short Sem)</td>
+									<td>Sem II (Long Sem)</td>
+								</tr>
+								<tr>
+									<td>2nd Sem</td>
+									<td>Sem II (Long Sem)</td>
+									<td>Sem III (Long Sem)</td>
+								</tr>
+								<tr>
+									<td>3rd Sem</td>
+									<td>Sem III (Short Sem)</td>
+									<td>Sem I (Short Sem)</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<th>学期</th>
+									<th>2020年之前</th>
+									<th>2020年之后</th>
+								</tr>
+							</tfoot>
+						</v-table>
 					</v-expansion-panel-text>
 				</v-expansion-panel>
 			</v-expansion-panels>
