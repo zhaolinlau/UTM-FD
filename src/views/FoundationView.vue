@@ -1,6 +1,35 @@
 <script setup>
 import setem1 from "@/assets/setem1.png"
 import setem2 from "@/assets/setem2.png"
+import foundation_4 from "@/assets/foundation_4.0.jpg"
+import foundation_fee from "@/assets/foundation_fee.png"
+import foundation_timetable from "@/assets/foundation_timetable.jpg"
+import dress1 from "@/assets/dress1.png"
+import dress2 from "@/assets/dress2.jpg"
+import ksj_room from "@/assets/ksj_room.jpg"
+import ksj_toilet from "@/assets/ksj_toilet.jpg"
+import ksj_pantry from "@/assets/ksj_pantry.jpg"
+import ksj_washing from "@/assets/ksj_washing.jpg"
+import ksj_laundry from "@/assets/ksj_laundry.jpg"
+import kp_male4 from "@/assets/kp_male4.jpg"
+import kp_male5 from "@/assets/kp_male5.jpg"
+import kp_male6 from "@/assets/kp_male6.jpg"
+import kp_male7 from "@/assets/kp_male7.jpg"
+import k10a from "@/assets/k10a.jpg"
+import k10b from "@/assets/k10b.jpg"
+import k10c from "@/assets/k10c.jpg"
+import k10d from "@/assets/k10d.jpg"
+import k10e from "@/assets/k10e.jpg"
+import k10f from "@/assets/k10f.jpg"
+import k9a from "@/assets/k9a.jpg"
+import k9b from "@/assets/k9b.jpg"
+import k9d from "@/assets/k9d.jpg"
+import k9e from "@/assets/k9e.jpg"
+import k9f from "@/assets/k9f.jpg"
+import k9g from "@/assets/k9g.jpg"
+import k9c from "@/assets/k9c.jpg"
+import k9h from "@/assets/k9h.jpg"
+import k9i from "@/assets/k9i.jpg"
 </script>
 
 <template>
@@ -560,7 +589,7 @@ import setem2 from "@/assets/setem2.png"
 		</v-col>
 	</v-row>
 
-	<v-row class="class_faq">
+	<v-row id="class_faq">
 		<v-col>
 			<p class="text-h5 text-center">
 				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
@@ -675,6 +704,780 @@ import setem2 from "@/assets/setem2.png"
 								</tr>
 							</tfoot>
 						</v-table>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+			</v-expansion-panels>
+		</v-col>
+	</v-row>
+
+	<v-row id="fee_faq">
+		<v-col>
+			<p class="text-h5 text-center">
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				学费疑问
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
+			</p>
+
+			<v-expansion-panels>
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						1. 听说utm 4.0免学费？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						对噢，不论是通过什么入学管道进入，只要是4.00的话degree第一年第一学期的学费就不需要还。
+						<v-img :src="foundation_4" max-width="690"></v-img>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						2. 我好像看不懂学费表？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						这里是Foundation
+						学费解释中文翻译版本。同学可以按进去看的哦！
+						<v-img :src="foundation_fee" max-width="1223"></v-img>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+			</v-expansion-panels>
+		</v-col>
+	</v-row>
+
+	<v-row id="course_faq">
+		<v-col>
+			<p class="text-h5 text-center">
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				科系问题
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
+			</p>
+
+			<v-expansion-panels>
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						1. Social Science跟Life Science还有Physical
+						Science有什么分别 ？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						这3个课程在第一个sem所学的东西都是一样的，在第二个sem开始的时候才会有点分别，Life
+						Science呢就是比较倾向于Biology，原本的Physics
+						II的课程将会改成Biology I；然而Social
+						Science的话就是倾向于商务的课程，会在第二跟第三学期的时候专注于商务课程（可以参考下面的表来了解更加详细的资料）
+						<a href="https://drive.google.com/file/d/1Nut5rfA3nusHGolAjWBZBNYDLDVIfx9e/view?usp=sharing" target="_blank"
+							class="text-red">【清楚的版本，按这边】</a>
+						<v-img :src="foundation_timetable" width="1600"></v-img>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						2. 我在系统申请到Life Science可是我想换去Physical
+						Science，我要怎么办？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						你可以联系UTM
+						Space的招生处通过email或者拨电，告诉他们你要更换科系即可。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						3. 如何申请foundation 的social science？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						需要在开学之前安排好科系哦，以方便后期不会受到影响。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						4. 我看到了UTM KL跟UTM JB都有Offer Foundation in Physical
+						Science，两边campus都有什么差别？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						其实毫无差别，只是UTM
+						KL的foundation班可以多读日语，但是日语班是自愿性的哦。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						5. 如果我对UTM KL的Foundation比较有兴趣，我可以换吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						可以的，需要拨电给UTM Space
+						Admission来更改你的校区哦，并且你的学号也会有所更改。但是，转换学校只可以在开学前弄，开学后就无法转换校区了。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						6. 我读了life science，以后可以读什么？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						life science 读的内容比较偏向于生物。读完foundation in life
+						science 后呢同学可继续申请相关的科系。例如，life
+						science是理科+生物的组合，那么日后同学可申请更多关于生物方面的科系，或是部分的工程科系例如bio-medical
+						engineering也可以哦。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						7. UTM Foundation 会难读吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						这个问题因人而异，因为Physics跟Chemistry大部分都跟SPM相似滴。然后Calculus也是跟Add
+						Maths差不多，只是比较深入一点。比较有挑战的是Computing，也就是编程或者Programming。除此之外，我们也会学关于英文，普通数学，电脑课程还有企业学哦。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						8.
+						如果我Foundation读到一半了，我拿到Matriculation/PISMP/UPU的offer，我可以退学吗？学费会不会退回？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						你当然可以申请退学，学费的话需要看你读了多久方可决定是否会退回，退回的百分比如下：
+						<br />
+						<p class="font-weight-bold text-center">
+							期限与会被征收的学费百分比
+						</p>
+						<v-table hover>
+							<thead>
+								<tr>
+									<th>期限</th>
+									<th>注册费</th>
+									<th>学费</th>
+									<th>宿舍费</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>第一个星期到第四个星期之间</td>
+									<td>100 %</td>
+									<td>50 %</td>
+									<td>100 %</td>
+								</tr>
+								<tr>
+									<td>第五个星期之后</td>
+									<td>100 %</td>
+									<td>100 %</td>
+									<td>100 %</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<th>期限</th>
+									<th>注册费</th>
+									<th>学费</th>
+									<th>宿舍费</th>
+								</tr>
+							</tfoot>
+						</v-table>
+						<ul>
+							<li>欠缺的学费必须从退学申请批准信发出的30天内缴清。</li>
+							<li>
+								若有多余的学费将会在30天内退还当调整工作已经完成。
+							</li>
+							<li>
+								以上皆为翻译版，一切以原文版为准。 （原文：
+								<a class="text-red"
+									href="https://studentppi.utmspace.edu.my/wp-content/uploads/2020/09/Buku-Panduan-Kewangan-bagi-Pelajar-Tempatan-Program-Asasi-UTM_2020.pdf"
+									target="_blank">Buku Panduan Kewangan Program Asasi UTM</a>）
+							</li>
+						</ul>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						9. UTM foundation很像私人的，是有受MQA认证的吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						有的，UTM的foundation是UTM
+						Space自己开办的课程并且是有受到MQA的认证的，这点同学不必担心。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						10. UTM Foundation的上课时间是怎样子的？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						JB Campus的上课时间是从星期日到星期四；KL
+						Campus的话就是星期一到星期五。每天早上8点到下午5点都会有课，然而休息时间为下午1点到2点。
+						<v-table hover>
+							<thead>
+								<tr>
+									<th>Credit Hour</th>
+									<th>Short Sem (9 weeks)</th>
+									<th>Long Sem (18 weeks)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>2</td>
+									<td>6 Hours/Week*</td>
+									<td>3 Hours/week*</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>10 Hours/Week</td>
+									<td>5 Hours/week</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<th>Credit Hour</th>
+									<th>Short Sem (9 weeks)</th>
+									<th>Long Sem (18 weeks)</th>
+								</tr>
+							</tfoot>
+						</v-table>
+						<span class="font-weight-bold">*不包括practical课，Practical课一律3 Hours per Week per
+							Subject。</span>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						11. 请问Social Science可以申请什么科系？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						可以
+						<a href="https://docs.google.com/spreadsheets/d/1CBsJfPlzrpWDCm4NE6IwG4RPQJR_M27b/edit#gid=947870231"
+							target="_blank" class="text-red">点击这里</a>
+						参考哦，里面有三大foundation科系可以在degree时期通过mainstream管道所申请到的科系。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+			</v-expansion-panels>
+		</v-col>
+	</v-row>
+
+	<v-row id="dresscode_faq">
+		<v-col>
+			<p class="text-h5 text-center">
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				衣着问题
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
+			</p>
+
+			<v-expansion-panels>
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						1. 请问UTM的dress code是怎样的呢？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						UTM的dress
+						code主打宽松并且不暴露的服装哦，裤子或者裙子都必须要长过膝盖。<br />
+						可以参考以下图片：<br />
+						<v-img :src="dress1" max-width="842"></v-img>
+						<v-img :src="dress2" max-width="800"></v-img>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						2. 请问可不可以穿牛仔裤？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						牛仔裤属于Informal服装，所以去上课、出席活动、办公室时不可以穿的哦。fyi，破洞裤也是不可以的。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						3. 请问有限定什么颜色跟花纹吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						颜色没有限定，但是建议淡色系，并且花纹正常，比如线条等等。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						4. 请问女生Smart Day的时候，一定要穿长裙吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						根据学校的law规定是需要穿长裙的哦。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						5. 请问马来服装是可以接受的吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						接受的，男生或者女生都是获准穿baju
+						kurung去上课的或者一些官方活动。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						6.
+						请问在工大范围时时刻刻都需要穿长袖的吗？如果不是的话，请问什么时候才需要穿长袖衬衫？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						不需要哦，长袖衬衫大致上都是在星期一的Smart
+						Day、学校官方活动、presentation的那天才需要穿的哦。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						7. 请问那种裤脚有松紧带的可以接受吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						不接受的哦，所以建议你的裤子不要紧身的哦。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						8. 请问有领的服装需要几时穿？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						上课的时候，以及去office处理事务的时候。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						9. 请问在宿舍区域的话，也需要时时刻刻地穿着长裤吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						不需要的哦，如果你处于宿舍区的话只需要跟着你在家平常的穿着即可。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						10. 请问Smart Day的时候必须穿黑皮鞋吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						是的，黑皮鞋属于formal attire的一部分。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						11. 请问领带有什么限制吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						没有。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						12. 请问西装外套是需要的吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						不需要，如果自己要准备的话也是可以的。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						13. 如果平常天的话，不是smart
+						day的情况下可以穿运动鞋/球鞋/跑步鞋/出街鞋去上课吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						可以的哦，只要是包鞋（covered shoes)就可以了。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						14. 请问是不是强制每个人都必须要有一套马来装？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						没有强制，学生们可以自愿性地购买。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						15. 请问女生在smart day的时候是需要打领带的吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						不需要。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+			</v-expansion-panels>
+		</v-col>
+	</v-row>
+
+	<v-row id="scolarship_faq">
+		<v-col>
+			<p class="text-h5 text-center">
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				奖贷学金
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
+			</p>
+
+			<v-expansion-panels>
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						1. Utmspace foundation有什么奖学金可以申请吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						由于UTM的Foundation课程是UTMSpace开办的所以政府不会给津贴，但是可以到
+						<a href="https://www.biasiswamalaysia.com/" target="_blank" class="text-red">Biasiswa Malaysia</a>
+						了解或者上网寻找其他奖贷学金。同时要记得先查看条款和条件是否符合。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						2. Foundation可以申请ptptn吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						UTM的Foundation课程由于课程时间少于1年，而PTPTN的要求是所剩的课程时限不少于1年，所以即使UTM
+						foundation 受MQA 认证也不可以申请PTPTN 的。 <br />
+						更多详细的借贷金额也可以到PTPTN的网站参考： <br />
+						<a href="https://www.ptptn.gov.my/permohonan-pinjaman-side" class="text-red"
+							target="_blank">https://www.ptptn.gov.my/permohonan-pinjaman-side</a>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						3. SSPN-i是什么来的？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						SSPN-i是国民教育储蓄基金，简单来说就是一个储蓄户口。申请ptptn的同学都需要先开一个sspn-i的户口，因为这个户口号码是申请PTPTN的条件之一。
+						<br />
+						开户链接：<a href="https://www.ptptn.gov.my/esmas-open-acc-web/#/openAccount" class="text-red"
+							target="_blank">https://www.ptptn.gov.my/esmas-open-acc-web/#/openAccount</a>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+			</v-expansion-panels>
+		</v-col>
+	</v-row>
+
+	<v-row id="hostel_faq">
+		<v-col>
+			<p class="text-h5 text-center">
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				宿舍问题
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
+			</p>
+
+			<v-expansion-panels>
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						1. Utm有巴士从宿舍去学校吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						UTMJB和UTMKL
+						都有提供巴士让学生从自己的宿舍去到上课的地方，但是因为UTMKL的campus不是很大所以校内就没有提供巴士服务，只需步行即可。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						2. 每间宿舍都是一样的格局吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						UTM的宿舍是双人房 (有床，橱，书桌，椅子，桌灯，风扇有)。
+						不过UTM JB宿舍的厕所是大家共用的，而UTM
+						KL的是两间房间共用一个厕所，所以厕所需要自行清洗。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						3. 宿舍有wifi吗？要还钱的吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						UTM 有提供公用wifi，是免费的。但是需要在同学入学之后使用UTM
+						id 和password
+						才能使用。但是每天凌晨4点都会重置，需要每天重新login！有些网站也会受到限制，不可以浏览。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						4. 宿舍里面可以煮东西吗？煮水的话嘞？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						UTM
+						的宿舍是不允许煮食物的；同学可以在宿舍煮水，需自行准备煮水的电器并在报到时缴付电器的费用。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						5. Foundation 的一年里可以不住宿舍吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						可以的，可以选择住在宿舍或者在Campus外居住；如果在campus外居住，须在每个sem返回学校填写表格。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						6. 在Johor 的Foundation
+						的宿舍，是有一个人居住的吗？是多少钱？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						校方提供给学生的宿舍都是默认为双人房的，如果要选择单人房的话需要向校方申请并且提供合理的原因，再看校方是否通过哦。Foundation学生双人房的宿舍费总共是RM3000。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						7. 房间有hair dryer吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						没有哦，需要自备。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						8.
+						第一天去宿舍时候要自备垃圾桶，扫把，畚斗那些的打扫用具吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						可以自备，也可以选择当天在学校才去附近购买。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						9. 可以带小冰箱吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						不建议这么做哦，因为被抓到的话是会被罚款甚至有可能被充公的。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						10.
+						房间里面有问题比如灯坏掉还是插座不能用的话，是要自己修吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						可以通知宿舍的管理员，他们会尽量在几天内来帮你处理好。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						11. 我在房间里面的话可以穿短裤吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						可以，只要不是在宿舍外面的范围走动。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						12. 可以选择自己要住的宿舍吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						这点没办法哦，因为都是校方的安排。但是学校会尽量安排学生住在靠近上课地点的宿舍。而Foundation的同学呢，男女都是住在Kolej
+						Perdana。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						13. 我可以申请跟朋友一起住吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						根据学校的规定，是无法选择自己的宿舍和室友的。但是通常校方都会大发慈悲，让你跟你的朋友一起住，只要一起报到即可。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						14. UTM KL的男女宿舍长怎样的？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						男女宿舍格局都一样，卫生间都在房内的（非常感谢
+						<a href="https://www.facebook.com/pmbutmkl" target="_blank" class="text-red">马来西亚工艺大学吉隆坡分校佛学会（华文学会）</a>
+						提供照片）：
+						<v-img :src="ksj_room" max-width="1080"></v-img>
+						<v-img :src="ksj_toilet" max-width="1080"></v-img>
+						<v-img :src="ksj_pantry" max-width="1080"></v-img>
+						<v-img :src="ksj_washing" max-width="1080"></v-img>
+						<v-img :src="ksj_laundry" max-width="1080"></v-img>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						15. UTM Skudai的男女宿舍长怎样的？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						<p class="text-decoration-underline text-center title">
+							Kolej Perdana
+						</p>
+						<v-row>
+							<v-col>
+								<video class="hidden-sm-and-down" controls>
+									<source src="@/assets/kp_male1.mp4" type="video/mp4" />
+								</video>
+								<video width="320" class="hidden-md-and-up" controls>
+									<source src="@/assets/kp_male1.mp4" type="video/mp4" />
+								</video>
+							</v-col>
+							<v-col>
+								<video class="hidden-sm-and-down" controls>
+									<source src="@/assets/kp_male2.mp4" type="video/mp4" />
+								</video>
+								<video width="320" class="hidden-md-and-up" controls>
+									<source src="@/assets/kp_male2.mp4" type="video/mp4" />
+								</video>
+							</v-col>
+							<v-col>
+								<video class="hidden-sm-and-down" controls>
+									<source src="@/assets/kp_male3.mp4" type="video/mp4" />
+								</video>
+								<video width="320" class="hidden-md-and-up" controls>
+									<source src="@/assets/kp_male3.mp4" type="video/mp4" />
+								</video>
+							</v-col>
+							<v-col cols="12">
+								<v-img :src="kp_male4" max-width="750"></v-img>
+							</v-col>
+							<v-col cols="12">
+								<v-img :src="kp_male5" max-width="560"></v-img>
+							</v-col>
+							<v-col cols="12">
+								<v-img :src="kp_male6" max-width="560"></v-img>
+							</v-col>
+							<v-col cols="12">
+								<v-img :src="kp_male7" max-width="750"></v-img>
+							</v-col>
+						</v-row>
+
+						<p class="text-decoration-underline text-center title mt-8">
+							<v-icon color="blue">mdi-gender-male</v-icon>
+							男宿舍 - Kolej 10
+						</p>
+						<v-row>
+							<v-col cols="12">
+								<v-img :src="k10a" max-width="960" class="mx-auto"></v-img>
+							</v-col>
+							<v-col md="6">
+								<v-img :src="k10b" max-width="684"></v-img>
+							</v-col>
+							<v-col md="6">
+								<v-img :src="k10c" max-width="684"></v-img>
+							</v-col>
+							<v-col md="6">
+								<v-img :src="k10d" max-width="684"></v-img>
+							</v-col>
+							<v-col md="6">
+								<v-img :src="k10e" max-width="684"></v-img>
+							</v-col>
+							<v-col md="6">
+								<v-img :src="k10f" max-width="684"></v-img>
+							</v-col>
+						</v-row>
+
+						<p class="text-decoration-underline text-center title mt-8">
+							<v-icon color="pink">mdi-gender-female</v-icon>
+							女宿舍 - Kolej 9
+						</p>
+						<v-row>
+							<v-col md="6">
+								<v-img :src="k9a" max-width="1440"></v-img>
+							</v-col>
+							<v-col md="6">
+								<v-img :src="k9b" max-width="1440"></v-img>
+							</v-col>
+							<v-col md="6">
+								<v-img :src="k9d" max-width="1440"></v-img>
+							</v-col>
+							<v-col md="6">
+								<v-img :src="k9e" max-width="1440"></v-img>
+							</v-col>
+							<v-col md="6">
+								<v-img :src="k9f" max-width="1200"></v-img>
+							</v-col>
+							<v-col md="6">
+								<v-img :src="k9g" max-width="1200"></v-img>
+							</v-col>
+							<v-col md="6">
+								<v-img :src="k9c" max-width="1200"></v-img>
+							</v-col>
+							<v-col md="6">
+								<v-img :src="k9h" max-width="1200"></v-img>
+							</v-col>
+							<v-col md="6">
+								<v-img :src="k9i" max-width="1440" class="mx-auto"></v-img>
+							</v-col>
+						</v-row>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						16. K9
+						K10在哪里哦？他附近靠近什么设施？交通方便吗？（K9女宿舍，K10男宿舍）
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						<v-row>
+							<v-col>
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5363.02440109997!2d103.64687812969346!3d1.55936916772616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da715a37183d8d%3A0x463ebbe956cfae7a!2sKolej%209!5e1!3m2!1sen!2smy!4v1654337652040!5m2!1sen!2smy"
+									width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+									referrerpolicy="no-referrer-when-downgrade" class="hidden-sm-and-down"></iframe>
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5363.02440109997!2d103.64687812969346!3d1.55936916772616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da715a37183d8d%3A0x463ebbe956cfae7a!2sKolej%209!5e1!3m2!1sen!2smy!4v1654337652040!5m2!1sen!2smy"
+									style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+									class="hidden-md-and-up"></iframe>
+							</v-col>
+							<v-col>
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9835.827248892432!2d103.6438532137106!3d1.5599397871402423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da715aed42d841%3A0xbb59b7e68940329c!2sKolej%2010%2C%20UTM%20Skudai!5e1!3m2!1sen!2smy!4v1654337707575!5m2!1sen!2smy"
+									width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+									referrerpolicy="no-referrer-when-downgrade" class="hidden-sm-and-down"></iframe>
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9835.827248892432!2d103.6438532137106!3d1.5599397871402423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da715aed42d841%3A0xbb59b7e68940329c!2sKolej%2010%2C%20UTM%20Skudai!5e1!3m2!1sen!2smy!4v1654337707575!5m2!1sen!2smy"
+									style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+									class="hidden-md-and-up"></iframe>
+							</v-col>
+						</v-row>
+						<v-row>
+							K9
+							K10区域非常靠近食堂以及篮球场、羽毛球场、足球场，而且宿舍外面就有巴士站载学生到新的图书馆以及上课的地方。此外，也会载学生到inbound范围，也就是KRP,
+							KTDI区域。
+						</v-row>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						17. KSJ在哪里？离campus远吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4912.128724072967!2d101.7296222!3d3.1868624999999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc378ad556bffb%3A0x9311d7bda7d09682!2sKolej%20Kediaman%20Siswa%20Jaya!5e1!3m2!1sen!2smy!4v1656923869779!5m2!1sen!2smy"
+							width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade" class="hidden-sm-and-down"></iframe>
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4912.128724072967!2d101.7296222!3d3.1868624999999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc378ad556bffb%3A0x9311d7bda7d09682!2sKolej%20Kediaman%20Siswa%20Jaya!5e1!3m2!1sen!2smy!4v1656923869779!5m2!1sen!2smy"
+							style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+							class="hidden-md-and-up"></iframe>
+						<br class="mt-3" />
+						离campus不远，不jam的话5分钟左右就能到达。
 					</v-expansion-panel-text>
 				</v-expansion-panel>
 			</v-expansion-panels>
