@@ -1483,4 +1483,154 @@ import k9i from "@/assets/k9i.jpg"
 			</v-expansion-panels>
 		</v-col>
 	</v-row>
+
+	<v-row id="environment_faq">
+		<v-col>
+			<p class="text-h5 text-center">
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				校内&校外环境与生活问题
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
+			</p>
+
+			<v-expansion-panels>
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						1. Utm里面有什么特别的设施？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						校内有泳池，体育场、篮球场等等还有各式各样的地方等待你自己去探索~
+						<br />
+						UTM Skudai 校园介绍短片：
+						<v-row>
+							<v-col>
+								<iframe class="hidden-sm-and-down" width="560" height="315"
+									src="https://www.youtube-nocookie.com/embed/JT7LedfgX1Q" title="YouTube video player" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
+								<iframe class="hidden-md-and-up" src="https://www.youtube-nocookie.com/embed/JT7LedfgX1Q"
+									title="YouTube video player" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
+							</v-col>
+						</v-row>
+
+						<v-row>
+							<v-col>
+								UTM KL宿舍Kolej Siswa Jaya(KSJ)简介： <br />
+								<a class="text-red" href="https://www.facebook.com/pmbutmkl/posts/480081150410035" target="_blank">Part
+									1</a>，<a class="text-red" href="https://www.facebook.com/pmbutmkl/posts/480698553681628"
+									target="_blank">Part 2</a>，<a class="text-red"
+									href="https://www.facebook.com/pmbutmkl/posts/481342093617274" target="_blank">Part 3</a>
+							</v-col>
+						</v-row>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						2. 学校附近有market吗？</v-expansion-panel-title>
+					<v-expansion-panel-text>UTM KL校内有
+						<a href="https://goo.gl/maps/8NLWtfKBQbuPji388" class="text-red" target="_blank">Gurney
+							mall</a>，mall里面同时也有公寓（最便宜的配套是RM1100，2张单人床，冷气，清理服务，wifi，泳池；详细的可以到
+						<a href="https://www.instagram.com/residensiutmkl.official/" class="text-red" target="_blank">Residensi UTM
+							KL</a>
+						查看）。UTMJB 附近有
+						market让同学购买日常用品。此外，校内也有杂货店方便学生购买必需品。
+						<br class="mb-3" />
+						Gurney Mall简介短片：<br />
+						<iframe class="hidden-sm-and-down" width="560" height="315"
+							src="https://www.youtube-nocookie.com/embed/Ck9nc0fAY58" title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+						<iframe class="hidden-md-and-up" src="https://www.youtube-nocookie.com/embed/Ck9nc0fAY58"
+							title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						3. 通常生活费是多少？</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						生活费是偏向于个人的，校内的食物选择琳琅满目，价钱平均为RM5一餐。另外还需要考虑买书本、文具、复印教材的费用、和其他生活娱乐之类的。一个月的生活费建议准备至少RM500。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						4.
+						那么你们是去哪里洗衣服的？洗了晒在哪里？</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						除了可以选择手洗，大部分宿舍内也有提供洗衣机。校内也有提供自助自已的dobi，dobi内也有烘干机。宿舍外面通常都会有一个晒衣服的地方，如果不放心的话也可以选择晒在自己房间，但是需要自备架子或绳子。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>5. 校内有华人餐吗？校外的话会难找吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						校内有华人素食。同时也可以选择乘坐Grab或巴士到校外附近的Taman
+						U。或者是用Food
+						Panda选择叫Delivery，和校外的华人餐厅外卖。</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						6. 宿舍里面有饮水机吗？</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						UTMJB的话，在步行可到的范围内，宿舍和上课的地方附近都会有饮水机，但是需注意有些饮水机需要收零钱而有些则是免费的。而UTMKL的宿舍内，每隔一楼层都会有一台小饮水机（免费的），大饮水机则在篮球场旁边（需要付零钱的）。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						7.
+						宿舍的房间有电风扇是吗？然后tilam不用带对吗？</v-expansion-panel-title>
+					<v-expansion-panel-text>宿舍提供的风扇是安装在天花板的吊扇哦。而tilam则是不需要带的因为宿舍是有提供床褥的，如果同学觉得有需要的话也是可以带的。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						8. UTM JB的公交设施如何？</v-expansion-panel-title>
+					<v-expansion-panel-text>B 呢有Bus Muafakat
+						Johor正在运行，负责载送居民到达目的地。车费呢是一人一年RM10，必须申请专属的BMJ
+						Kad，在2021年，BMJ为了推动到柔佛旅游计划，手持大马卡的马来西亚公民可以以身份证上车，无需任何费用。BMJ也有一辆巴士进入UTM
+						JB区域载送学生出校等等（目前MCO期间，无法确定是否照常入内）
+						<br /><br />
+						除了BMJ之外，JB也有Causewaylink以及众多巴士公司在市区里面载送，车费不详，需要根据你的目的地付费，并且只可以使用现金付费。
+						<br />
+						<a href="https://drive.google.com/drive/folders/1P6zVO0e_CXz0S9OBWoQ8smv0eKRv7KDr?usp=sharing" target="_blank"
+							class="text-red">点击我查看路线</a>
+						<br /><br />
+						<p class="text-red font-weight-bold">
+							*如果要查看任何关于P211的时间以及路线的话，请下载LUGO或者使用Google
+							Map
+						</p>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						9. 如果我家住靠近学校或者我是住外面的话，需要怎样搭公共交通到学校呢？</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						UTM KL路线： <br /><br />
+						路线一 <br />
+						搭LRT去到
+						<span class="bg-red">Dato Keramat</span>
+						然后在那里等个
+						<span class="bg-red">220号</span>
+						的巴士并搭上，220号巴士有一站会<span class="bg-red">停在UTM KL大门对面的巴士站</span>。 <br /><br />
+						路线二 <br />
+						若不太想等巴士，也可以搭 LRT 去到
+						<span class="bg-red">Damai</span>
+						然后走个大约15分钟就能到达UTM KL的Gurney Mall（校内的Mall）
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+			</v-expansion-panels>
+		</v-col>
+	</v-row>
 </template>
