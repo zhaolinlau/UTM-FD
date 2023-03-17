@@ -1,7 +1,7 @@
 <script setup>
 import AppCarousel from '@/components/AppCarousel.vue'
 import luetify from '@/assets/luetify.png'
-import confession from '../assets/confession.jpg'
+import confession from '@/assets/confession.jpg'
 </script>
 
 <template>
@@ -37,11 +37,11 @@ import confession from '../assets/confession.jpg'
 		</v-col>
 
 		<v-col lg="2" class="d-flex justify-center">
-			<v-img :src="confession" max-width="125"></v-img>
+			<img src="@/assets/confession.jpg">
 		</v-col>
 
 		<v-col lg="2" class="d-flex justify-center">
-			<v-img :src="luetify"></v-img>
+			<img src="@/assets/luetify.png">
 		</v-col>
 	</v-row>
 </template>
