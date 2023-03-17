@@ -1,7 +1,5 @@
 <script setup>
 import AppCarousel from '@/components/AppCarousel.vue'
-import luetify from '@/assets/luetify.png'
-import confession from '@/assets/confession.jpg'
 </script>
 
 <template>
