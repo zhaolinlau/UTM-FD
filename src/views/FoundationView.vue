@@ -924,7 +924,7 @@
 		</v-col>
 	</v-row>
 
-	<v-row id="dresscode_faq"></v-row>
+	<v-row id="dresscode_faq">
 		<v-col>
 			<p class="text-h5 text-center">
 				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
