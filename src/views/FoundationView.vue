@@ -1403,21 +1403,21 @@
 							<v-col>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5363.02440109997!2d103.64687812969346!3d1.55936916772616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da715a37183d8d%3A0x463ebbe956cfae7a!2sKolej%209!5e1!3m2!1sen!2smy!4v1654337652040!5m2!1sen!2smy"
-									width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+									width="600" height="450" style="border: 0" allowfullscreen="true" loading="lazy"
 									referrerpolicy="no-referrer-when-downgrade" class="hidden-sm-and-down"></iframe>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5363.02440109997!2d103.64687812969346!3d1.55936916772616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da715a37183d8d%3A0x463ebbe956cfae7a!2sKolej%209!5e1!3m2!1sen!2smy!4v1654337652040!5m2!1sen!2smy"
-									style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+									style="border: 0" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
 									class="hidden-md-and-up"></iframe>
 							</v-col>
 							<v-col>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9835.827248892432!2d103.6438532137106!3d1.5599397871402423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da715aed42d841%3A0xbb59b7e68940329c!2sKolej%2010%2C%20UTM%20Skudai!5e1!3m2!1sen!2smy!4v1654337707575!5m2!1sen!2smy"
-									width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+									width="600" height="450" style="border: 0" allowfullscreen="true" loading="lazy"
 									referrerpolicy="no-referrer-when-downgrade" class="hidden-sm-and-down"></iframe>
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9835.827248892432!2d103.6438532137106!3d1.5599397871402423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da715aed42d841%3A0xbb59b7e68940329c!2sKolej%2010%2C%20UTM%20Skudai!5e1!3m2!1sen!2smy!4v1654337707575!5m2!1sen!2smy"
-									style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+									style="border: 0" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
 									class="hidden-md-and-up"></iframe>
 							</v-col>
 						</v-row>
@@ -1436,11 +1436,11 @@
 					<v-expansion-panel-text>
 						<iframe
 							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4912.128724072967!2d101.7296222!3d3.1868624999999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc378ad556bffb%3A0x9311d7bda7d09682!2sKolej%20Kediaman%20Siswa%20Jaya!5e1!3m2!1sen!2smy!4v1656923869779!5m2!1sen!2smy"
-							width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+							width="600" height="450" style="border: 0" allowfullscreen="true" loading="lazy"
 							referrerpolicy="no-referrer-when-downgrade" class="hidden-sm-and-down"></iframe>
 						<iframe
 							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4912.128724072967!2d101.7296222!3d3.1868624999999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc378ad556bffb%3A0x9311d7bda7d09682!2sKolej%20Kediaman%20Siswa%20Jaya!5e1!3m2!1sen!2smy!4v1656923869779!5m2!1sen!2smy"
-							style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+							style="border: 0" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
 							class="hidden-md-and-up"></iframe>
 						<br class="mt-3" />
 						离campus不远，不jam的话5分钟左右就能到达。
