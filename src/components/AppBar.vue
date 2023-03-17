@@ -11,7 +11,7 @@ const drawer = ref(false)
 		<v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer" class="hidden-md-and-up"></v-app-bar-nav-icon>
 		<v-app-bar-title>工大Foundation & Diploma升学辅导站</v-app-bar-title>
 
-		<v-tabs color="red">
+		<v-tabs color="red" class="hidden-sm-and-down">
 			<v-tab to="/">首页</v-tab>
 			<v-tab to="/foundation">Foundation</v-tab>
 			<v-tab to="/diploma">Diploma</v-tab>
