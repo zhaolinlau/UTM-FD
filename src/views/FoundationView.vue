@@ -1742,7 +1742,7 @@
 
 	<v-row id="upu_faq">
 		<v-col>
-			<p class="headline text-center">
+			<p class="text-h5 text-center">
 				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
 					icon="mdi-hand-pointing-right"></v-icon>
 				UPU申请问题
