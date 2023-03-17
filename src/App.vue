@@ -15,3 +15,10 @@ import AppFooter from './components/AppFooter.vue'
 		</v-main>
 	</v-layout>
 </template>
+
+<style>
+img {
+	max-width: 100%;
+	height: auto;
+}
+</style>

@@ -1,37 +1,3 @@
-<script setup>
-import setem1 from "@/assets/setem1.png"
-import setem2 from "@/assets/setem2.png"
-import foundation_4 from "@/assets/foundation_4.0.jpg"
-import foundation_fee from "@/assets/foundation_fee.png"
-import foundation_timetable from "@/assets/foundation_timetable.jpg"
-import dress1 from "@/assets/dress1.png"
-import dress2 from "@/assets/dress2.jpg"
-import ksj_room from "@/assets/ksj_room.jpg"
-import ksj_toilet from "@/assets/ksj_toilet.jpg"
-import ksj_pantry from "@/assets/ksj_pantry.jpg"
-import ksj_washing from "@/assets/ksj_washing.jpg"
-import ksj_laundry from "@/assets/ksj_laundry.jpg"
-import kp_male4 from "@/assets/kp_male4.jpg"
-import kp_male5 from "@/assets/kp_male5.jpg"
-import kp_male6 from "@/assets/kp_male6.jpg"
-import kp_male7 from "@/assets/kp_male7.jpg"
-import k10a from "@/assets/k10a.jpg"
-import k10b from "@/assets/k10b.jpg"
-import k10c from "@/assets/k10c.jpg"
-import k10d from "@/assets/k10d.jpg"
-import k10e from "@/assets/k10e.jpg"
-import k10f from "@/assets/k10f.jpg"
-import k9a from "@/assets/k9a.jpg"
-import k9b from "@/assets/k9b.jpg"
-import k9d from "@/assets/k9d.jpg"
-import k9e from "@/assets/k9e.jpg"
-import k9f from "@/assets/k9f.jpg"
-import k9g from "@/assets/k9g.jpg"
-import k9c from "@/assets/k9c.jpg"
-import k9h from "@/assets/k9h.jpg"
-import k9i from "@/assets/k9i.jpg"
-</script>
-
 <template>
 	<v-row class="text-center" id="live">
 		<v-col>
@@ -226,14 +192,14 @@ import k9i from "@/assets/k9i.jpg"
 						<v-row>
 							<v-col md="2">
 								<v-row>
-									<v-img :src="setem1" max-width="132" class="ml-2 ml-md-7"></v-img>
+									<img src="@/assets/setem1.png" class="ml-2 ml-md-7">
 								</v-row>
 								<v-row> Pos Malaysia的Setem Hasil </v-row>
 							</v-col>
 
 							<v-col md="2">
 								<v-row>
-									<v-img :src="setem2" max-width="112" class="ml-3"></v-img>
+									<img src="@/assets/setem2.png" class="ml-3">
 								</v-row>
 								<v-row> LHDN的Setem Hasil </v-row>
 							</v-col>
@@ -726,8 +692,8 @@ import k9i from "@/assets/k9i.jpg"
 						1. 听说utm 4.0免学费？
 					</v-expansion-panel-title>
 					<v-expansion-panel-text>
-						对噢，不论是通过什么入学管道进入，只要是4.00的话degree第一年第一学期的学费就不需要还。
-						<v-img :src="foundation_4" max-width="690"></v-img>
+						对噢，不论是通过什么入学管道进入，只要是4.00的话degree第一年第一学期的学费就不需要还。<br>
+						<img src="@/assets/foundation_4.0.jpg">
 					</v-expansion-panel-text>
 				</v-expansion-panel>
 
@@ -738,7 +704,7 @@ import k9i from "@/assets/k9i.jpg"
 					<v-expansion-panel-text>
 						这里是Foundation
 						学费解释中文翻译版本。同学可以按进去看的哦！
-						<v-img :src="foundation_fee" max-width="1223"></v-img>
+						<img src="@/assets/foundation_fee.png">
 					</v-expansion-panel-text>
 				</v-expansion-panel>
 			</v-expansion-panels>
@@ -768,7 +734,7 @@ import k9i from "@/assets/k9i.jpg"
 						Science的话就是倾向于商务的课程，会在第二跟第三学期的时候专注于商务课程（可以参考下面的表来了解更加详细的资料）
 						<a href="https://drive.google.com/file/d/1Nut5rfA3nusHGolAjWBZBNYDLDVIfx9e/view?usp=sharing" target="_blank"
 							class="text-red">【清楚的版本，按这边】</a>
-						<v-img :src="foundation_timetable" width="1600"></v-img>
+						<img src="@/assets/foundation_timetable.jpg">
 					</v-expansion-panel-text>
 				</v-expansion-panel>
 
@@ -958,7 +924,7 @@ import k9i from "@/assets/k9i.jpg"
 		</v-col>
 	</v-row>
 
-	<v-row id="dresscode_faq">
+	<v-row id="dresscode_faq"></v-row>
 		<v-col>
 			<p class="text-h5 text-center">
 				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
@@ -977,8 +943,8 @@ import k9i from "@/assets/k9i.jpg"
 						UTM的dress
 						code主打宽松并且不暴露的服装哦，裤子或者裙子都必须要长过膝盖。<br />
 						可以参考以下图片：<br />
-						<v-img :src="dress1" max-width="842"></v-img>
-						<v-img :src="dress2" max-width="800"></v-img>
+						<img src="@/assets/dress1.png">
+						<img src="@/assets/dress2.jpg">
 					</v-expansion-panel-text>
 				</v-expansion-panel>
 
@@ -1311,11 +1277,11 @@ import k9i from "@/assets/k9i.jpg"
 						男女宿舍格局都一样，卫生间都在房内的（非常感谢
 						<a href="https://www.facebook.com/pmbutmkl" target="_blank" class="text-red">马来西亚工艺大学吉隆坡分校佛学会（华文学会）</a>
 						提供照片）：
-						<v-img :src="ksj_room" max-width="1080"></v-img>
-						<v-img :src="ksj_toilet" max-width="1080"></v-img>
-						<v-img :src="ksj_pantry" max-width="1080"></v-img>
-						<v-img :src="ksj_washing" max-width="1080"></v-img>
-						<v-img :src="ksj_laundry" max-width="1080"></v-img>
+						<img src="@/assets/ksj_room.jpg">
+						<img src="@/assets/ksj_toilet.jpg">
+						<img src="@/assets/ksj_pantry.jpg">
+						<img src="@/assets/ksj_washing.jpg">
+						<img src="@/assets/ksj_laundry.jpg">
 					</v-expansion-panel-text>
 				</v-expansion-panel>
 
@@ -1353,16 +1319,16 @@ import k9i from "@/assets/k9i.jpg"
 								</video>
 							</v-col>
 							<v-col cols="12">
-								<v-img :src="kp_male4" max-width="750"></v-img>
+								<img src="@/assets/kp_male4.jpg">
 							</v-col>
 							<v-col cols="12">
-								<v-img :src="kp_male5" max-width="560"></v-img>
+								<img src="@/assets/kp_male5.jpg">
 							</v-col>
 							<v-col cols="12">
-								<v-img :src="kp_male6" max-width="560"></v-img>
+								<img src="@/assets/kp_male6.jpg">
 							</v-col>
 							<v-col cols="12">
-								<v-img :src="kp_male7" max-width="750"></v-img>
+								<img src="@/assets/kp_male7.jpg">
 							</v-col>
 						</v-row>
 
@@ -1372,22 +1338,22 @@ import k9i from "@/assets/k9i.jpg"
 						</p>
 						<v-row>
 							<v-col cols="12">
-								<v-img :src="k10a" max-width="960" class="mx-auto"></v-img>
+								<img src="@/assets/k10a.jpg" class="mx-auto">
 							</v-col>
 							<v-col md="6">
-								<v-img :src="k10b" max-width="684"></v-img>
+								<img src="@/assets/k10b.jpg">
 							</v-col>
 							<v-col md="6">
-								<v-img :src="k10c" max-width="684"></v-img>
+								<img src="@/assets/k10c.jpg">
 							</v-col>
 							<v-col md="6">
-								<v-img :src="k10d" max-width="684"></v-img>
+								<img src="@/assets/k10d.jpg">
 							</v-col>
 							<v-col md="6">
-								<v-img :src="k10e" max-width="684"></v-img>
+								<img src="@/assets/k10e.jpg">
 							</v-col>
 							<v-col md="6">
-								<v-img :src="k10f" max-width="684"></v-img>
+								<img src="@/assets/k10f.jpg">
 							</v-col>
 						</v-row>
 
@@ -1397,31 +1363,31 @@ import k9i from "@/assets/k9i.jpg"
 						</p>
 						<v-row>
 							<v-col md="6">
-								<v-img :src="k9a" max-width="1440"></v-img>
+								<img src="@/assets/k9a.jpg">
 							</v-col>
 							<v-col md="6">
-								<v-img :src="k9b" max-width="1440"></v-img>
+								<img src="@/assets/k9b.jpg">
 							</v-col>
 							<v-col md="6">
-								<v-img :src="k9d" max-width="1440"></v-img>
+								<img src="@/assets/k9d.jpg">
 							</v-col>
 							<v-col md="6">
-								<v-img :src="k9e" max-width="1440"></v-img>
+								<img src="@/assets/k9e.jpg">
 							</v-col>
 							<v-col md="6">
-								<v-img :src="k9f" max-width="1200"></v-img>
+								<img src="@/assets/k9f.jpg">
 							</v-col>
 							<v-col md="6">
-								<v-img :src="k9g" max-width="1200"></v-img>
+								<img src="@/assets/k9g.jpg">
 							</v-col>
 							<v-col md="6">
-								<v-img :src="k9c" max-width="1200"></v-img>
+								<img src="@/assets/k9c.jpg">
 							</v-col>
 							<v-col md="6">
-								<v-img :src="k9h" max-width="1200"></v-img>
+								<img src="@/assets/k9h.jpg">
 							</v-col>
 							<v-col md="6">
-								<v-img :src="k9i" max-width="1440" class="mx-auto"></v-img>
+								<img src="@/assets/k9i.jpg" class="mx-auto">
 							</v-col>
 						</v-row>
 					</v-expansion-panel-text>
