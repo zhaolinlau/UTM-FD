@@ -1739,4 +1739,112 @@
 			</v-expansion-panels>
 		</v-col>
 	</v-row>
+
+	<v-row id="upu_faq">
+		<v-col>
+			<p class="headline text-center">
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				UPU申请问题
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
+			</p>
+
+			<v-expansion-panels>
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						1. 若我想要使用UTM
+						Foundation成绩来申请UPU的话，我需要在Kategori跟Lepasan填写什么？<span class="font-weight-bold">（不需要买pin了，直接在UPU官方申请即可）</span>
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						Lepasan: Foundation IPTS <br />
+						Jenis Kelayakan: Kelayakan Setaraf <br />
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						2. 为什么不是Lepasan Asasi ? 我们不是Program Asasi吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						在UPU里面Program Asasi只专属于UKM,UM,UiTM的Program
+						Asasi的课程，因为他们的成绩是自动与教育部的系统连接，UTM的Program
+						Asasi属于UTM自己开办的课程，未纳入教育部的课程内，所以Kategori是Kelayakan
+						Setaraf. (如果你选择Program
+						Asasi的话，系统也不会给你process的，因为在教育部的系统内没有你的资料）。
+						<br />
+						在Bahagian Akademik的部分，请在Ruang STPM的Keterangan
+						Diploma/Setaraf填写如下：
+						<img src="@/assets/foundation_enddate.jpg">
+						<span class="font-weight-bold">Tarikh Tamat
+							Pengajian必须询问老师，因为每年的日期都不同！</span>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						3. 在Bahagian Dokumen的，我要怎样upload我的文件？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						你必须根据他所需要的来upload给他，如果有标记 *
+						号的话，但是你没有的，你可以跳过，因为已经向UPU官员确认，该
+						* 号只是摆美的。 <br />
+						<span class="font-weight-bold">Dokumen Penting！！！！</span>
+						<v-simple-table>
+							<tbody>
+								<tr>
+									<th>Salinan Sijil SPM</th>
+									<td>
+										如果你已经拿到了，可以scan了,
+										upload给他们，若还没，请上传SPM Slip
+									</td>
+								</tr>
+								<tr>
+									<th>Salinan Transkrip Semasa</th>
+									<td>
+										这个是你Current CPGA的slip，你可以到
+										<a class="text-red" href="https://apps.foundation.utmspace.edu.my/student/login?returnUrl=/student/"
+											target="_blank">SMP</a>（Sistem Maklumat Pelajar），print出来或者save as
+										PDF
+									</td>
+								</tr>
+								<tr>
+									<th>Salinan Pengesahan Tamat</th>
+									<td>
+										这个必须向学校索取，前提是你已经完成了asasi课程，如果还没请放空
+									</td>
+								</tr>
+								<tr>
+									<th>Salinan Sijil MQA</th>
+									<td>
+										请下载这个document，然后upload。请点击
+										<a class="text-red" href="https://www2.mqa.gov.my/mqr/english/epapar_printAA.cfm?IdAkrKP=17343"
+											target="_blank">下载</a>
+										来download.
+									</td>
+								</tr>
+								<tr>
+									<th>Salinan Sijil MUET</th>
+									<td>
+										如果你已经考取了，请上传你的MUET Certificate,
+										如果还没请放空。
+									</td>
+								</tr>
+							</tbody>
+						</v-simple-table>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						4. 有部份的dokumen我没有upload，我放空，会不会影响到我的UPU
+						Application？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						不会影响到的，别担心，UPU会在8月的时候重新开放系统，让申请者upload剩下的资料，以确保不会影响到application哦！
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+			</v-expansion-panels>
+		</v-col>
+	</v-row>
 </template>
