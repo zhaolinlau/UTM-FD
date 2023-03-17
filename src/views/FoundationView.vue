@@ -1733,7 +1733,7 @@
 						<br />
 						<span class="font-weight-bold">MoD: Register online and make payment after
 							registration.</span>
-						<v-img src="../assets/muet.png" max-width="1453"></v-img>
+						<img src="@/assets/muet.png">
 					</v-expansion-panel-text>
 				</v-expansion-panel>
 			</v-expansion-panels>
