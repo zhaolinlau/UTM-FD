@@ -1290,7 +1290,7 @@
 						15. UTM Skudai的男女宿舍长怎样的？
 					</v-expansion-panel-title>
 					<v-expansion-panel-text>
-						<p class="text-decoration-underline text-center title">
+						<p class="text-decoration-underline text-center text-h6">
 							Kolej Perdana
 						</p>
 						<v-row>
@@ -1332,8 +1332,8 @@
 							</v-col>
 						</v-row>
 
-						<p class="text-decoration-underline text-center title mt-8">
-							<v-icon color="blue">mdi-gender-male</v-icon>
+						<p class="text-decoration-underline text-center text-h6 mt-8">
+							<v-icon color="blue" icon="mdi-gender-male"></v-icon>
 							男宿舍 - Kolej 10
 						</p>
 						<v-row>
@@ -1357,8 +1357,8 @@
 							</v-col>
 						</v-row>
 
-						<p class="text-decoration-underline text-center title mt-8">
-							<v-icon color="pink">mdi-gender-female</v-icon>
+						<p class="text-decoration-underline text-center text-h6 mt-8">
+							<v-icon color="pink" icon="mdi-gender-female"></v-icon>
 							女宿舍 - Kolej 9
 						</p>
 						<v-row>
