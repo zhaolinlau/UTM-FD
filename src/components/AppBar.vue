@@ -6,7 +6,7 @@ const drawer = ref(false)
 
 <template>
 	<v-navigation-drawer v-model="drawer" temporary>
-		<v-list>
+		<v-list color="red">
 			<v-list-item to="/">首页</v-list-item>
 			<v-list-item to="/foundation">Foundation</v-list-item>
 			<v-list-item to="/diploma">Diploma</v-list-item>
