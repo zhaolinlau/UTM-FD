@@ -29,17 +29,22 @@ import AppCarousel from '@/components/AppCarousel.vue'
 		</v-col>
 	</v-row>
 
-	<v-row class="mt-16" justify="center">
-		<v-col cols="12">
+	<v-row class="mt-16">
+		<v-col>
 			<p class="text-center text-h5">合作伙伴 & 特别赞助</p>
-		</v-col>
+			<v-row class="d-flex align-center justify-center">
+				<v-col cols="4" md="1">
+					<a href="https://www.facebook.com/utmcv2point0" target="_blank">
+						<img src="@/assets/confession.jpg">
+					</a>
+				</v-col>
 
-		<v-col lg="2" class="d-flex justify-center">
-			<img src="@/assets/confession.jpg">
-		</v-col>
-
-		<v-col lg="2" class="d-flex justify-center">
-			<img src="@/assets/luetify.png">
+				<v-col cols="6" md="2">
+					<a href="https://github.com/Luetify" target="_blank">
+						<img src="@/assets/luetify.png">
+					</a>
+				</v-col>
+			</v-row>
 		</v-col>
 	</v-row>
 </template>
