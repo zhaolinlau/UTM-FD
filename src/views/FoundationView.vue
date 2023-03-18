@@ -296,7 +296,7 @@
 					</v-expansion-panel-title>
 					<v-expansion-panel-text>
 						建议根据校方给的Set Tawaran Kemasukan来打印和复印。
-						<v-img src="../assets/foundation_brg.jpg" max-width="728"></v-img>
+						<img src="@/assets/foundation_brg.jpg">
 					</v-expansion-panel-text>
 				</v-expansion-panel>
 
