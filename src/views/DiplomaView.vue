@@ -991,4 +991,293 @@ const panels = [
 			</v-expansion-panels>
 		</v-col>
 	</v-row>
+
+	<v-row id="hostel_faq">
+		<v-col>
+			<p class="text-h5 text-center">
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				宿舍问题
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
+			</p>
+
+			<v-expansion-panels>
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						1. Utm有巴士从宿舍去学校吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						UTMJB和UTMKL
+						都有提供巴士让学生从自己的宿舍去到上课的地方，但是因为UTMKL的campus不是很大所以校内就没有提供巴士服务，只需步行即可。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						2. 每间宿舍都是一样的格局吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						对的，UTM 的宿舍是双人房
+						(有2张床，2个橱，2张书桌，2张椅子，一盏风扇)。 不过UTM
+						JB宿舍的厕所是大家共用的，而UTM
+						KL的是两间房间共用一个厕所，所以厕所需要自行清洗。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						3. 宿舍有wifi吗？要还钱的吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						UTM 有提供公用wifi，是免费的。但是需要在同学入学之后使用UTM
+						id 和password
+						才能使用。但是每天wifi都会重置，需要每天重新登录！有些网站也会受到限制，不可以浏览。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						4. 宿舍里面可以煮东西吗？煮水的话嘞？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						UTM
+						的宿舍是不允许煮食物的；同学可以在宿舍煮水，需自行准备煮水的电器并在报到时缴付电器的费用。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						5. Diploma 第一年可以不住宿舍吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						可以的，不过由于第一年是校方鼓励新生住宿舍的所以如果不想住学校提供的宿舍需要另外申请，否则会算你宿舍费。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						6. 宿舍可以一个人居住的吗？多少钱？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						校方提供给学生的宿舍都是默认为双人房的，如果要选择单人房的话需要向校方申请并且提供合理的原因，再看校方是否通过哦。一个人居住则每学期需付RM1600。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						7. 房间有hair dryer吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						房间只有床单，书桌，椅子，其余的都需要自备。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						8.
+						第一天去宿舍时候要自备垃圾桶，扫把，畚斗那些的打扫用具吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						可以自备，也可以选择当天在学校才去附近购买，如果是UTM
+						KL的话宿舍内有杂货店可以买。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						9. 可以带小冰箱吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						不能，因为被发现的话是会被罚款甚至有可能被充公的。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						10. 房间里面有问题比如灯坏掉还是插座不能用的话怎么办？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						可以通知宿舍的管理员，他们会尽量在几天内来帮你处理好。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						11. 我在房间里面的话可以穿短裤吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						可以，只要不是在宿舍外面的范围走动。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						12. 可以选择自己要住的宿舍吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						这点没办法哦，因为都是校方的安排。但是学校会尽量安排学生住在靠近上课地点的宿舍。2019/2020的时候是UTM
+						JB的diploma男生是居住在
+						<a href="https://goo.gl/maps/KhnNrzoTXDf11yQ2A" target="_blank" class="text-red">Kolej Rahman Putra (KRP)</a>
+						，而女生则在
+						<a href="https://goo.gl/maps/7JJAfSuyf2rf9YSs7" target="_blank" class="text-red">
+							Kolej Tun Fatimah (KTF)</a>。后来新的一届女生则在
+						<a href="https://goo.gl/maps/r3QgvTYx5g3jHXxNA" target="_blank" class="text-red">Kolej 9 (K9)</a>
+						，男生在
+						<a href="https://goo.gl/maps/vkv9bCMca9rUVSMF9" target="_blank" class="text-red">Kolej 10 (K10)</a>。UTM
+						KL的话只有一间宿舍，就是
+						<a href="https://goo.gl/maps/2FSXyUio9B3LbuhCA" target="_blank" class="text-red">Kolej Kediaman Siswa Jaya
+							(KSJ)</a>
+						，UTM KL的宿舍有3个blok，blok A是女生，blok
+						B是男女（男女不同层），blok
+						C则是男生，而diploma生会安排在blok A以及blok C居住。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						13. 我可以申请跟朋友一起住吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						根据学校的规定，是无法选择自己的宿舍和室友的。但是，报到当天的时候可以和朋友一起到柜台尝试申请一起住（必须在入住前）。补充，通常校方都会尽量安排学生和同种族的一起，所以别太担心。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						14. UTM KL的男女宿舍长怎样的？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						男女宿舍格局都一样，卫生间都在房内的（非常感谢
+						<a href="https://www.facebook.com/pmbutmkl" target="_blank" class="text-red">马来西亚工艺大学吉隆坡分校佛学会（华文学会）</a>
+						提供照片）：
+						<img src="@/assets/ksj_room.jpg">
+						<img src="@/assets/ksj_toilet.jpg">
+						<img src="@/assets/ksj_pantry.jpg">
+						<img src="@/assets/ksj_washing.jpg">
+						<img src="@/assets/ksj_laundry.jpg">
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						15. UTM Skudai的男女宿舍长怎样的？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						<p class="text-decoration-underline text-center text-h6">
+							<v-icon color="blue" icon="mdi-gender-male"></v-icon>
+							男宿舍
+						</p>
+						<v-row>
+							<v-col>
+								<img src="@/assets/k10a.jpg" class="mx-auto">
+							</v-col>
+							<v-col>
+								<img src="@/assets/k10b.jpg">
+							</v-col>
+							<v-col>
+								<img src="@/assets/k10c.jpg">
+							</v-col>
+							<v-col>
+								<img src="@/assets/k10d.jpg">
+							</v-col>
+							<v-col>
+								<img src="@/assets/k10e.jpg">
+							</v-col>
+							<v-col>
+								<img src="@/assets/k10f.jpg" class="mx-auto">
+							</v-col>
+						</v-row>
+
+						<p class="text-decoration-underline text-center title mt-8">
+							<v-icon color="pink" icon="mdi-gender-female"></v-icon>
+							女宿舍
+						</p>
+						<v-row>
+							<v-col md="6">
+								<img src="@/assets/k9a.jpg">
+							</v-col>
+							<v-col md="6">
+								<img src="@/assets/k9b.jpg">
+							</v-col>
+							<v-col md="6">
+								<img src="@/assets/k9d.jpg">
+							</v-col>
+							<v-col md="6">
+								<img src="@/assets/k9e.jpg">
+							</v-col>
+							<v-col md="6">
+								<img src="@/assets/k9f.jpg">
+							</v-col>
+							<v-col md="6">
+								<img src="@/assets/k9g.jpg">
+							</v-col>
+							<v-col md="6">
+								<img src="@/assets/k9c.jpg">
+							</v-col>
+							<v-col md="6">
+								<img src="@/assets/k9h.jpg">
+							</v-col>
+							<v-col>
+								<img src="@/assets/k9i.jpg" class="mx-auto">
+							</v-col>
+						</v-row>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						16. K9 K10附近有什么设施？交通方便吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						<v-row>
+							<v-col>
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5363.02440109997!2d103.64687812969346!3d1.55936916772616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da715a37183d8d%3A0x463ebbe956cfae7a!2sKolej%209!5e1!3m2!1sen!2smy!4v1654337652040!5m2!1sen!2smy"
+									width="600" height="450" style="border: 0" allowfullscreen="true" loading="lazy"
+									referrerpolicy="no-referrer-when-downgrade" class="hidden-sm-and-down"></iframe>
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5363.02440109997!2d103.64687812969346!3d1.55936916772616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da715a37183d8d%3A0x463ebbe956cfae7a!2sKolej%209!5e1!3m2!1sen!2smy!4v1654337652040!5m2!1sen!2smy"
+									style="border: 0" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+									class="hidden-md-and-up"></iframe>
+							</v-col>
+							<v-col>
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9835.827248892432!2d103.6438532137106!3d1.5599397871402423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da715aed42d841%3A0xbb59b7e68940329c!2sKolej%2010%2C%20UTM%20Skudai!5e1!3m2!1sen!2smy!4v1654337707575!5m2!1sen!2smy"
+									width="600" height="450" style="border: 0" allowfullscreen="true" loading="lazy"
+									referrerpolicy="no-referrer-when-downgrade" class="hidden-sm-and-down"></iframe>
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9835.827248892432!2d103.6438532137106!3d1.5599397871402423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da715aed42d841%3A0xbb59b7e68940329c!2sKolej%2010%2C%20UTM%20Skudai!5e1!3m2!1sen!2smy!4v1654337707575!5m2!1sen!2smy"
+									style="border: 0" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+									class="hidden-md-and-up"></iframe>
+							</v-col>
+						</v-row>
+						<v-row>
+							K9
+							K10区域非常靠近食堂以及篮球场、羽毛球场、足球场，而且宿舍外面就有巴士站载学生到新的图书馆以及上课的地方。此外，也会载学生到inbound范围，也就是KRP,
+							KTDI区域。
+						</v-row>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						17. KSJ在哪里？离campus远吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4912.128724072967!2d101.7296222!3d3.1868624999999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc378ad556bffb%3A0x9311d7bda7d09682!2sKolej%20Kediaman%20Siswa%20Jaya!5e1!3m2!1sen!2smy!4v1656923869779!5m2!1sen!2smy"
+							width="600" height="450" style="border: 0" allowfullscreen="true" loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade" class="hidden-sm-and-down"></iframe>
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4912.128724072967!2d101.7296222!3d3.1868624999999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc378ad556bffb%3A0x9311d7bda7d09682!2sKolej%20Kediaman%20Siswa%20Jaya!5e1!3m2!1sen!2smy!4v1656923869779!5m2!1sen!2smy"
+							style="border: 0" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+							class="hidden-md-and-up"></iframe>
+						<br class="mt-3" />
+						离campus不远，不jam的话5分钟左右就能到达。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+			</v-expansion-panels>
+		</v-col>
+	</v-row>
 </template>
