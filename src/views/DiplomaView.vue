@@ -1680,4 +1680,87 @@ const panels = [
 			</v-expansion-panels>
 		</v-col>
 	</v-row>
+
+	<v-row id="dermasiswa_faq">
+		<v-col>
+			<p class="text-h5 text-center">
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				助学金
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
+			</p>
+
+			<v-expansion-panels>
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						1. Dermasiswa（助学金）的申请条件有什么呢？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						<ol type="a">
+							<li>只开放给UTM Diploma的学生</li>
+							<li>第一学期的CGPA必须3.50以上</li>
+							<li>没有接受任何别的奖学金资助</li>
+							<li>家庭的月收入少于RM4000</li>
+						</ol>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						2. 这个助学金什么时候可以申请呢？要去哪里申请？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						这个奖学金将在第一学期结束后公开通知申请，截止日期通常会在第二学期开始后的30天内，更确切的日期依校方的公布为准。
+						<br />
+						<span class="font-weight-bold text-red">目前还未开放申请</span>，有兴趣的同学可以到
+						<a href="http://space.utm.my/studentaffairs/bantuan-penajaan/" target="_blank" class="text-red">Bantuan
+							Penajaan</a>
+						查看去年开放申请的日期和表格。
+						<br />
+						<ol type="a">
+							<li>申请表格</li>
+							<li>入学时收到的Surat Tawaran (副本)</li>
+							<li>身份证和学生证 (副本)</li>
+							<li>父母/监护人的身份证(副本)</li>
+							<li>
+								父母/监护人的薪水单(副本)
+								<span class="text-red">**若没有薪水单则须填写Borang Pengesahan
+									Pendapatan</span>
+							</li>
+							<li>第一学期的成绩单(副本)</li>
+						</ol>
+						<br />
+						<span class="font-weight-bold">注意：</span><br />
+						所有的<span class="text-red">副本也需要sahkan</span>哦，可寻找Pengetua, Guru Besar Sekolah (Sekolah Kerajaan
+						sahaja), Penghulu, Penggawa, Tuai Rumah, Ketua Kaum atau
+						Mukim Bertauliah, Pegawai Kerajaan Kumpulan Pengurusan dan
+						Profesional (dahulunya Kumpulan A), Pengamal Undang-undang,
+						Pesuruhjaya Sumpah, Jaksa Pendamai atau Ahli Majlis
+						Mesyuarat Negeri (Ahli EXCO)。 <br />.
+						<span class="text-red">第一学期的成绩单只能给General Manager, Centre for Diploma
+							Studies当局来sah。</span>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						3. 申请了要等多久才知道结果？</v-expansion-panel-title>
+					<v-expansion-panel-text>申请结果会在申请截止日期后30天内公布。成功申请者需自行联络UTMSPACE的奖学金秘书处。</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						4. 成功申请的话会拿到多少津贴呢？</v-expansion-panel-title>
+					<v-expansion-panel-text>津贴金额会在每学期结束时通过校方自行开会决定。根据官方列明，通常是50%的学费。</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						5. Dermasiswa容易申请到吗？</v-expansion-panel-title>
+					<v-expansion-panel-text>听说很难才拿得到offer。</v-expansion-panel-text>
+				</v-expansion-panel>
+			</v-expansion-panels>
+		</v-col>
+	</v-row>
 </template>
