@@ -941,4 +941,54 @@ const panels = [
 			</v-expansion-panels>
 		</v-col>
 	</v-row>
+
+	<v-row id="scholarship_faq">
+		<v-col>
+			<p class="text-h5 text-center">
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				奖贷学金
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
+			</p>
+
+			<v-expansion-panels>
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						1. Utmspace diploma有什么奖学金可以申请吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						由于UTM的Diploma课程是UTMSpace开办的所以政府不会给津贴，但是可以到
+						<a href="https://www.biasiswamalaysia.com/" target="_blank" class="text-red">Biasiswa Malaysia</a>
+						了解或者上网寻找其他奖贷学金。同时要记得先查看条款和条件是否符合。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						2. Diploma可以申请ptptn吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						可以的，详情可以到
+						<a href="http://space.utm.my/studentaffairs/bantuan-penajaan/" target="_blank" class="text-red">Bantuan
+							Penajaan dan Bantuan Kewangan</a>
+						了解。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						3. SSPN-i是什么来的？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						SSPN-i是国民教育储蓄基金，简单来说就是一个储蓄户口。申请ptptn的同学都需要先开一个sspn-i的户口，因为这个户口号码是申请PTPTN的条件之一。
+						<br />
+						开户链接： <br />
+						<a href="https://www.ptptn.gov.my/esmas-open-acc-web/#/openAccount" class="text-red"
+							target="_blank">https://www.ptptn.gov.my/esmas-open-acc-web/#/openAccount</a>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+			</v-expansion-panels>
+		</v-col>
+	</v-row>
 </template>
