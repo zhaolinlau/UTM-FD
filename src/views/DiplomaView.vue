@@ -761,4 +761,184 @@ const panels = [
 			</v-expansion-panels>
 		</v-col>
 	</v-row>
+
+	<v-row id="course_faq">
+		<v-col>
+			<p class="text-h5 text-center">
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				科系问题
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
+			</p>
+
+			<v-expansion-panels>
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						1. 读完utm diploma后可以转到其他大专的degree吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						可以的，如果要转至其他公立大专需要通过upu并且是以diploma
+						ipta的资格申请，upu会给你8个选项填，次序排列也根据你喜欢科目，比较想读科系/大专放first
+						choice以此类推。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						2. 读完utm diploma后申请degree需要通过upu吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						读完utm diploma申请进utm
+						degree不需要通过upu，到时校方会给你一个utm
+						diploma生的专属通道直接申请即可（utm diploma申请进utm
+						degree有优先权，当然成绩也要考好），该通道会给你两个选项填
+						(比较喜欢的科目放first choice)。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						3. 为什么utm diploma学费跟私立一样贵？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						因为utmspace属于私立，但同时utmspace也是utm的其中一个faculty；foundation、diploma、、UTM
+						IDP以及半工半读都是由utmspace在管理。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						4. 读完utm diploma后degree需要读多少年？听说可以credit
+						transfer？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						读完utm diploma后degree可以申请credit transfer来skip year
+						1的课程，所以会是3年degree。补充，diploma in architecture 进
+						degree in
+						architecture会是2.5年+2年(architecture的degree原本就是3年加上可以credit
+						transfer一年)
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						5. 读完utm diploma后可以申请utm degree的什么科目？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						能申请的科目可以查看
+						<a href="https://drive.google.com/file/d/1BY80Aw6lINZZDnaZ7g204grf6hMPZdOi/view?usp=sharing" target="_blank"
+							class="text-red">List of Programme 2022/2023</a>，申请的条件则可以
+						<a href="https://admission.utm.my/entry-requirements-ug-malaysian/" target="_blank" class="text-red">点击这里</a>
+						参考
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						6. utm diploma跟utm foundation的差别在哪里？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						utm diploma跟utm
+						foundation的差别就在于diploma是3年课程而foundation是1年课程，utm
+						diploma学的东西其实跟degree都差不多一样都是专注在一个科系（这就是为什么可以在degree的时候申请credit
+						transfer），而foundation呢就是跟stpm以及matrikulasi差不多都是散科的。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						7.
+						我在系统申请到了一个科系可是我想换去另一个科系，我应该怎么办？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						你可以联系UTMSpace的招生处通过电邮（<a href="mailto:ambilan@utmspace.edu.my"
+							class="text-red">ambilan@utmspace.edu.my</a>）或者拨电（0197252856 / 0197348856 / 0197192667 /
+						0195724110），告诉他们你要更换科系即可。请记得在工作时间联络他们
+						SUNDAY : 8:00 am – 3:30 pm, MON – THUR : 8:00 am – 5:00 pm。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						8. UTM Diploma会难读吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						难不难读其实只要对该科系有兴趣，有专心听课都不会觉得难。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						9.
+						如果我Diploma读到一半了，我拿到Matriculation/PISMP/UPU的offer，我可以退学吗？学费会不会退回？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						你当然可以申请退学，学费的话需要看你读了多久方可决定是否会退回，退回的百分比如下：
+						<br />
+						<p class="font-weight-bold text-center">
+							期限与会被征收的学费百分比
+						</p>
+						<v-table hover>
+							<thead>
+								<tr>
+									<th>期限</th>
+									<th>服务费</th>
+									<th>学费</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>第1个星期到第4个星期之间</td>
+									<td>100%</td>
+									<td>50%</td>
+								</tr>
+								<tr>
+									<td>第5个星期到第9个星期之间</td>
+									<td>100%</td>
+									<td>75%</td>
+								</tr>
+								<tr>
+									<td>第9个星期之后</td>
+									<td>100%</td>
+									<td>100%</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<th>期限</th>
+									<th>服务费</th>
+									<th>学费</th>
+								</tr>
+							</tfoot>
+						</v-table>
+						<ul>
+							<li>欠缺的学费必须从退学申请批准信发出的30天内缴清。</li>
+							<li>
+								若有多余的学费将会在30天内退还当调整工作已经完成。
+							</li>
+							<li>
+								以上皆为翻译版，一切以原文版为准。 （原文：
+								<a class="text-red"
+									href="https://studentdiploma.utmspace.edu.my/wp-content/uploads/2020/06/Buku-Panduan-Kewangan-Edisi-3_2020.pdf"
+									target="_blank">Buku Panduan Kewangan Program Diploma Sepenuh Masa</a>）
+							</li>
+						</ul>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						10. UTM diploma受MQA承认的吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						对的，可以到
+						<a href="https://www2.mqa.gov.my/mqr/english/eiptaKPList.cfm?IDAkrIPTS=261" target="_blank"
+							class="text-red">MQA官方的UTM课程</a>
+						查看。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+			</v-expansion-panels>
+		</v-col>
+	</v-row>
 </template>
