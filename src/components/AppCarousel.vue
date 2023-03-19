@@ -19,10 +19,10 @@ const slides = [
 </script>
 
 <template>
-	<v-carousel progress="red">
+	<v-carousel progress="red" show-arrows="hover">
 		<v-carousel-item cover v-for="(slide, i) in slides" :key="i" :src="slide.src">
 			<div class="d-flex fill-height justify-center align-center">
-				<div class="text-h2">
+				<div class="text-h4 text-md-h1">
 					{{ slide.title }}
 				</div>
 			</div>
