@@ -709,4 +709,56 @@ const panels = [
 			</v-expansion-panels>
 		</v-col>
 	</v-row>
+
+	<v-row id="fee_faq">
+		<v-col>
+			<p class="text-h5 text-center">
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				学费疑问
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
+			</p>
+
+			<v-expansion-panels>
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						1. 听说如果diploma CGPA 4.0的话，degree就可以免学费？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						对的，不论是通过什么入学管道进入，只要是4.00的话degree第一年第一学期的学费就不需要还（只免学费yuran
+						pelajaran，并不包括其他杂费例如：yuran perkhidmatan以及yuran
+						asrama）。但是如果你在第一年的第一学期没有考到4.0那么接下来就不能免学费了。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						2. 学费表怎么看？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						以下是Diploma学费表的中文翻译版本：
+						<img src="@/assets/diploma_fee.png">
+						<br />
+						Diploma新生费用总结（7月26报到前需要付清的）： <br />
+						<ol>
+							<li>拿到录取信后2星期内给 RM300 BMK</li>
+							<li>RM1300 报名费</li>
+							<li>RM1000 学费</li>
+							<li>RM650 杂费</li>
+							<li>RM200 住宿费</li>
+						</ol>
+						<br class="mt-3" />
+						Diploma新生报到后需要付清的剩下的学费&住宿费：
+						<ol>
+							<li>8月26前工程系的同学需要交 RM3800 学费</li>
+							<li>8月26前非工程系的同学需要交 RM3480 学费</li>
+							<li>8月26前建筑系的同学需要交 RM4376 学费</li>
+							<li>10月7前给 RM1000 住宿费</li>
+						</ol>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+			</v-expansion-panels>
+		</v-col>
+	</v-row>
 </template>
