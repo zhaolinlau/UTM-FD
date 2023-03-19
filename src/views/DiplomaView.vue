@@ -1,7 +1,4 @@
 <script setup>
-const e1 = 1;
-let isIntersecting = false;
-
 const engineering = [
 	{
 		program: "Diploma in Civil Engineering",
