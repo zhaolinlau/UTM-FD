@@ -635,4 +635,78 @@ const panels = [
 			</v-expansion-panels>
 		</v-col>
 	</v-row>
+
+	<v-row id="class_faq">
+		<v-col>
+			<p class="text-h5 text-center">
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				日常上课疑问
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
+			</p>
+
+			<v-expansion-panels>
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						1. idp生是和mainstream生一起上课的还是分开？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						两者是一起上课的哦。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						2. 上课和考试时候是用什么语言啊？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						除了部分大专必修科（University General
+						Course），其他科目考试时候一定是用英文或者双语。上课的话是根据
+						lecturer，教材会使用英文，但是同时也会用国文作为辅助。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						3. 上课的衣服有什么要求吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						最基本是有领的短袖上衣，长裤和包鞋。另外，校方有规定过星期一是formal
+						wear。 <br />
+						<img src="@/assets/tatacara_berpakaian.jpg">
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						4.
+						上课有需要准备些什么standard的簿子或是textpad吗？还是多数用电脑？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						可以自备簿子或者白纸方便记录资料，教学的讲义和内容都需要根据lecturer，有的会给softcopy让我们自行打印（例如PowerPoint）有的则是要求需要用指定的书本。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						5. Johor的周末是在星期五和六吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						是的，所以星期五和六是没有上课的，除非教授要求。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						6. 请问diploma的文凭是utm的还是utmspace自己的？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						文凭一样是utm的，只是课程是由UTMSpace在管理，而UTMSpace是
+						UTM 的其中一个faculty。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+			</v-expansion-panels>
+		</v-col>
+	</v-row>
 </template>
