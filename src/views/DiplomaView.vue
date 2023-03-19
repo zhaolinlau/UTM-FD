@@ -1440,4 +1440,144 @@ const panels = [
 			</v-expansion-panels>
 		</v-col>
 	</v-row>
+
+	<v-row id="degree_faq">
+		<v-col>
+			<p class="text-h5 text-center">
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				往后升学
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
+			</p>
+
+			<v-expansion-panels>
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						1. 读了utm diploma过后可以去别的大学读degree吗？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						可以通过UPU申请去到其他的大专（例如：UM，UPM，USM，UKM，UMP，UTEM，UTHM，UNIMAP
+						等等）就读学士课程。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						2. 我们读完了，想要报读自己喜欢的科系，进main
+						stream是通过upu，还是还有一个管道直接进main stream？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						即将读完utm diploma后校方会提供一个网站给学生申请utm
+						degree。而根据以往的经验，如果foundation的成绩在3.50或以上的话utm会直接offer学生在main
+						stream
+						degree升学，但是最终决定还是需要取决于校方。如果没有3.50也不用担心，因为utm
+						diploma的成绩也可以用在upu申请其他大专的degree课程。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						3. 通过UTM
+						Diploma的专属通道申请的话，有什么科系是我可以申请的呢？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						大部分科系都可以申请，详细的参阅以下列表:
+						<br />
+						<a href="https://drive.google.com/file/d/1BY80Aw6lINZZDnaZ7g204grf6hMPZdOi/view?usp=sharing" target="_blank"
+							class="text-red">List of Programme 2022/2023</a>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						4. 我读了UTM Diploma，是不是只可以申请IDP？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						完全不正确，在你读到year
+						3的的时候，UTM的招生处会通知并且给你们讲座。到时候，UTM会提供特别通道给你们申请进入UTM
+						mainstream degree。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						5. 我想问下，比如说utm
+						diploma的学生跟其他管道进的相比会有在选择科系上的优势，那请问utm
+						diploma是不是也有这种优势呢？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						在utm
+						diploma课程将要结束时，utmspace会先开放utm的degree课程给utm
+						diploma的学生申请，学生可选择其中两个科系。而可选择的科系校方会根据学生自身读者的课程去进行过滤。utm也有说明会优先考量utm
+						diploma的学生。
+						<br />
+						录取过程如下： <br />
+						UTM Diploma → （剩余的位置）→ UPU → Matriculation → STPM →
+						Diploma Other Universities → Foundation IPTS
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						6. 请问下读完utm diploma后如果我以International Degree
+						Program (IDP)
+						进入就读degree和通过mainstream的进入会有什么不一样呢？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						两者的差别是在于费用以及门槛哦IDP门槛偏低一些，平时上课是一起的。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						7. IDP 和mainstream的degree有什么差别？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						IDP
+						degree是utm自主录取学生，而mainstream的degree则是通过upu也就是国家高等教育局来录取学生的。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						8. 我在Foundation的时候是拿Life
+						Science的，请问我在申请mainstream的时候是不是只可以到有Biology的mainstream科目？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						这种说法是错的，Computer science的科目仍然符合到其他UTM
+						Mainstream课程的录取指标。举例来说，Matematik或者Fizik或者Kimia的录取资格是接受使用任何科系的diploma，只要该degree科系的入取条件当中没有自定一个科系才可以申请的话任何utm
+						diploma科系的学生都可以申请，但是会因为diploma的科系和degree的恶习不一样导致不能申请credit
+						transfer。
+						<br />
+						各个科目的录取门槛可以参考这边：<a href="https://admission.utm.my/entry-requirements-ug-malaysian/" target="_blank"
+							class="text-red">Syarat Kemasukan ke UTM Degree</a>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						9. 我看到入学门槛表里面有写着需要MUET Band
+						2或以上才可以拿到offer，请问我们如何考MUET？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						UTM
+						Space会帮忙学生在degree之前考MUET，费用呢大约是RM350-RM400之间，这笔费用里面包括UTM
+						Space给予的MUET的补习班。如果你已经自己考过MUET的话，并且你的MUET成绩还在有效期的话，你可以直接凭着该成绩申请degree
+						Mainstream课程。 <br />
+						<span class="font-weight-bold">建议学生们自己报考MUET，因为自己报考MUET可以比较便宜而且可以自己选择考场，不需要支付昂贵的考试费。（只是不会给予补习班，需要自习）</span>
+						<br />
+						<span class="font-weight-bold">Normal Fee: MUET : RM101 / MOD: RM250</span>
+						<br />
+						<span class="font-weight-bold">MUET :Register online and make payment during
+							registration.</span>
+						<br />
+						<span class="font-weight-bold">MoD: Register online and make payment after
+							registration.</span>
+						<img src="@/assets/muet.png">
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+			</v-expansion-panels>
+		</v-col>
+	</v-row>
 </template>
