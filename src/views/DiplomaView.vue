@@ -1580,4 +1580,104 @@ const panels = [
 			</v-expansion-panels>
 		</v-col>
 	</v-row>
+
+	<v-row id="upu_faq">
+		<v-col>
+			<p class="text-h5 text-center">
+				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
+					icon="mdi-hand-pointing-right"></v-icon>
+				UPU申请问题
+				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
+					icon="mdi-hand-pointing-left"></v-icon>
+			</p>
+
+			<v-expansion-panels>
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						1. 如果我想要使用UTM
+						Diploma成绩来申请UPU的话，我需要在Kategori跟Lepasan填写什么？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						Program Pengajian: Lepasan STPM / Setaraf
+						<br />
+						Lepasan: Diploma Universiti Awam
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						2. 在Maklumat Akademik的部分，Tarikh Tamat Pengajian填几时？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						Tarikh Tamat Pengajian必须询问老师，因为每年的日期都不同。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						3. 在Maklumat Dokumen的，我要怎样upload我的文件？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						你必须根据他所需要的来upload给他，如果有标记 * 号以及"jika
+						berkaitan"的话，但是你没有涉及到的，你可以跳过。 <br />
+						<span class="font-weight-bold">Dokumen
+							Penting（所有文件上传前都需要给政府官员sahkan）</span>
+						<v-simple-table>
+							<tbody>
+								<tr>
+									<th>Salinan Sijil SPM</th>
+									<td>
+										如果你已经拿到了，可以scan了,
+										upload给他们，若还没，请上传SPM
+										Slip。如果是复印的建议找村长或校长之类的政府官员签名。
+									</td>
+								</tr>
+								<tr>
+									<th>Salinan Sijil MUET</th>
+									<td>
+										如果你已经考取了，请上传你的MUET Certificate,
+										如果还没请放空。如果是复印的建议找村长或校长之类的政府官员签名。
+									</td>
+								</tr>
+								<tr>
+									<th>Salinan Transkrip Penuh / Semester</th>
+									<td>
+										这个需要向Bahagian Pejabat Akademik（UTM KL：<a href="mailto:rahaida@utmspace.edu.my"
+											class="text-red">rahaida@utmspace.edu.my</a>，UTM JB：<a href="mailto:nurfatin@utmspace.edu.my"
+											class="text-red">nurfatin@utmspace.edu.my</a>）索取官方成绩单。
+									</td>
+								</tr>
+								<tr>
+									<th>Salinan Diploma / Pengesahan Tamat</th>
+									<td>
+										这个必须向Bahagian Pejabat Akademik（UTM KL：<a href="mailto:rahaida@utmspace.edu.my"
+											class="text-red">rahaida@utmspace.edu.my</a>，UTM JB：<a href="mailto:nurfatin@utmspace.edu.my"
+											class="text-red">nurfatin@utmspace.edu.my</a>）索取，前提是你已经完成了diploma课程，如果还没请放空。
+									</td>
+								</tr>
+								<tr>
+									<th>Salinan Sijil MQA</th>
+									<td>
+										这个可以到
+										<a href="https://www2.mqa.gov.my/mqr/english/eiptaKPList.cfm?IDAkrIPTS=261" class="text-red">MQA官方</a>
+										找然后print出来找村长或校长之类的政府官员签名。
+									</td>
+								</tr>
+							</tbody>
+						</v-simple-table>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+
+				<v-expansion-panel>
+					<v-expansion-panel-title>
+						4. 有部分的dokumen我没有upload，我放空，会不会影响到我的UPU
+						Application？
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						不会影响到的，因为UPU第一阶段纯粹是开放给你们申请而已，第一阶段结束的几个月后会在开放第二阶段，而第二阶段就是让申请者upload剩下的资料，以确保不会影响到application。
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+			</v-expansion-panels>
+		</v-col>
+	</v-row>
 </template>
