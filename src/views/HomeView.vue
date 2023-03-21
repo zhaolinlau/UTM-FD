@@ -15,7 +15,7 @@ import AppCarousel from '@/components/AppCarousel.vue'
 		<v-col cols="12" lg="4" md="4" xl="4">
 			<v-card title="UTM Foundation 2023/2024 Telegram 群组">
 				<v-card-actions>
-					<v-btn prepend-icon="mdi-send-circle-outline" color="blue">未开放</v-btn>
+					<v-btn prepend-icon="fa-brands fa-telegram" color="blue" block active rounded>未开放</v-btn>
 				</v-card-actions>
 			</v-card>
 		</v-col>
@@ -23,7 +23,7 @@ import AppCarousel from '@/components/AppCarousel.vue'
 		<v-col cols="12" lg="4" md="4" xl="4">
 			<v-card title="UTM Diploma 2023/2024 WhatsApp 群组">
 				<v-card-actions>
-					<v-btn prepend-icon="mdi-whatsapp" color="green">未开放</v-btn>
+					<v-btn prepend-icon="fa-brands fa-whatsapp" color="green" block active rounded>未开放</v-btn>
 				</v-card-actions>
 			</v-card>
 		</v-col>

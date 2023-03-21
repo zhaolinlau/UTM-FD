@@ -3,10 +3,10 @@
 		<v-col>
 			<p class="text-h5">
 				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
-					icon="mdi-hand-pointing-right"></v-icon>
+					icon="fas fa-regular fa-hand-point-right"></v-icon>
 				实时更新
 				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
-					icon="mdi-hand-pointing-left"></v-icon>
+					icon="fas fa-regular fa-hand-point-left"></v-icon>
 			</p>
 			<p>
 				Foundation回忆录实时更新版本
@@ -21,10 +21,10 @@
 		<v-col>
 			<p class="text-center text-h5">
 				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
-					icon="mdi-hand-pointing-right"></v-icon>
+					icon="fas fa-regular fa-hand-point-right"></v-icon>
 				重要日期
 				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
-					icon="mdi-hand-pointing-left"></v-icon>
+					icon="fas fa-regular fa-hand-point-left"></v-icon>
 			</p>
 			<p class="text-h6">UTM FOUNDATION PROGRAMME</p>
 			<p class="text-subtitle-1">INTAKE: JULY 2023</p>
@@ -87,10 +87,10 @@
 		<v-col>
 			<p class="text-center text-h5">
 				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
-					icon="mdi-hand-pointing-right"></v-icon>
+					icon="fas fa-regular fa-hand-point-right"></v-icon>
 				填写表格疑问
 				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
-					icon="mdi-hand-pointing-left"></v-icon>
+					icon="fas fa-regular fa-hand-point-left"></v-icon>
 			</p>
 			<v-expansion-panels>
 				<v-expansion-panel>
@@ -553,10 +553,10 @@
 		<v-col>
 			<p class="text-h5 text-center">
 				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
-					icon="mdi-hand-pointing-right"></v-icon>
+					icon="fas fa-regular fa-hand-point-right"></v-icon>
 				日常上课疑问
 				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
-					icon="mdi-hand-pointing-left"></v-icon>
+					icon="fas fa-regular fa-hand-point-left"></v-icon>
 			</p>
 			<v-expansion-panels>
 				<v-expansion-panel>
@@ -674,10 +674,10 @@
 		<v-col>
 			<p class="text-h5 text-center">
 				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
-					icon="mdi-hand-pointing-right"></v-icon>
+					icon="fas fa-regular fa-hand-point-right"></v-icon>
 				学费疑问
 				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
-					icon="mdi-hand-pointing-left"></v-icon>
+					icon="fas fa-regular fa-hand-point-left"></v-icon>
 			</p>
 
 			<v-expansion-panels>
@@ -709,10 +709,10 @@
 		<v-col>
 			<p class="text-h5 text-center">
 				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
-					icon="mdi-hand-pointing-right"></v-icon>
+					icon="fas fa-regular fa-hand-point-right"></v-icon>
 				科系问题
 				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
-					icon="mdi-hand-pointing-left"></v-icon>
+					icon="fas fa-regular fa-hand-point-left"></v-icon>
 			</p>
 
 			<v-expansion-panels>
@@ -922,10 +922,10 @@
 		<v-col>
 			<p class="text-h5 text-center">
 				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
-					icon="mdi-hand-pointing-right"></v-icon>
+					icon="fas fa-regular fa-hand-point-right"></v-icon>
 				衣着问题
 				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
-					icon="mdi-hand-pointing-left"></v-icon>
+					icon="fas fa-regular fa-hand-point-left"></v-icon>
 			</p>
 
 			<v-expansion-panels>
@@ -1079,10 +1079,10 @@
 		<v-col>
 			<p class="text-h5 text-center">
 				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
-					icon="mdi-hand-pointing-right"></v-icon>
+					icon="fas fa-regular fa-hand-point-right"></v-icon>
 				奖贷学金
 				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
-					icon="mdi-hand-pointing-left"></v-icon>
+					icon="fas fa-regular fa-hand-point-left"></v-icon>
 			</p>
 
 			<v-expansion-panels>
@@ -1129,10 +1129,10 @@
 		<v-col>
 			<p class="text-h5 text-center">
 				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
-					icon="mdi-hand-pointing-right"></v-icon>
+					icon="fas fa-regular fa-hand-point-right"></v-icon>
 				宿舍问题
 				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
-					icon="mdi-hand-pointing-left"></v-icon>
+					icon="fas fa-regular fa-hand-point-left"></v-icon>
 			</p>
 
 			<v-expansion-panels>
@@ -1327,7 +1327,7 @@
 						</v-row>
 
 						<p class="text-decoration-underline text-center text-h6 mt-8">
-							<v-icon color="blue" icon="mdi-gender-male"></v-icon>
+							<v-icon color="blue" icon="fas fa-regular fa-mars"></v-icon>
 							男宿舍 - Kolej 10
 						</p>
 						<v-row>
@@ -1352,7 +1352,7 @@
 						</v-row>
 
 						<p class="text-decoration-underline text-center text-h6 mt-8">
-							<v-icon color="pink" icon="mdi-gender-female"></v-icon>
+							<v-icon color="pink" icon="fas fa-regular fa-venus"></v-icon>
 							女宿舍 - Kolej 9
 						</p>
 						<v-row>
@@ -1448,10 +1448,10 @@
 		<v-col>
 			<p class="text-h5 text-center">
 				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
-					icon="mdi-hand-pointing-right"></v-icon>
+					icon="fas fa-regular fa-hand-point-right"></v-icon>
 				校内&校外环境与生活问题
 				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
-					icon="mdi-hand-pointing-left"></v-icon>
+					icon="fas fa-regular fa-hand-point-left"></v-icon>
 			</p>
 
 			<v-expansion-panels>
@@ -1598,10 +1598,10 @@
 		<v-col>
 			<p class="text-h5 text-center">
 				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
-					icon="mdi-hand-pointing-right"></v-icon>
+					icon="fas fa-regular fa-hand-point-right"></v-icon>
 				往后升学
 				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
-					icon="mdi-hand-pointing-left"></v-icon>
+					icon="fas fa-regular fa-hand-point-left"></v-icon>
 			</p>
 
 			<v-expansion-panels>
@@ -1738,10 +1738,10 @@
 		<v-col>
 			<p class="text-h5 text-center">
 				<v-icon color="red" class="animate__animated animate__fadeInLeft animate__infinite"
-					icon="mdi-hand-pointing-right"></v-icon>
+					icon="fas fa-regular fa-hand-point-right"></v-icon>
 				UPU申请问题
 				<v-icon color="red" class="animate__animated animate__fadeInRight animate__infinite"
-					icon="mdi-hand-pointing-left"></v-icon>
+					icon="fas fa-regular fa-hand-point-left"></v-icon>
 			</p>
 
 			<v-expansion-panels>
