@@ -27,49 +27,50 @@
 					icon="mdi-hand-pointing-left"></v-icon>
 			</p>
 			<p class="text-h6">UTM FOUNDATION PROGRAMME</p>
-			<p class="text-subtitle-1">INTAKE: JULY 2022</p>
+			<p class="text-subtitle-1">INTAKE: JULY 2023</p>
 			<v-table hover>
 				<thead>
 					<tr>
-						<th>No</th>
-						<th>Item</th>
-						<th>Local Date</th>
-						<th>International Date</th>
+						<th>NO.</th>
+						<th>ITEM</th>
+						<th>INTERNATIONAL DATE</th>
+						<th>LOCAL DATE</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
-						<td>1</td>
+						<td>1.</td>
 						<td>Online Application</td>
-						<td>Extended until 24 July 2022</td>
-						<td>23 Feb 2022 - 1 June 2022</td>
+						<td>1 March 2023 – 31 May 2023</td>
+						<td>15 March – 31 May 2023</td>
 					</tr>
 					<tr>
-						<td>2</td>
-						<td>Status Application</td>
+						<td>2.</td>
+						<td>Application Status</td>
 						<td>
-							Starting one day after the official SPM result released
+							Starting 10 April 2023
 						</td>
-						<td>Starting from 9 March</td>
+						<td>Starting 7 days after the official SPM results has been issued</td>
 					</tr>
 					<tr>
-						<td>3</td>
-						<td>Virtual Open Day</td>
-						<td>3 July 2022</td>
-						<td>3 July 2022</td>
+						<td>3.</td>
+						<td>Open Day</td>
+						<td>-</td>
+						<td>Virtual : 7 May 2023* <br>
+							Physical : 28 May 2023*</td>
 					</tr>
 					<tr>
-						<td>4</td>
+						<td>4.</td>
 						<td>New Student Registration Day</td>
-						<td>20 July 2022*</td>
-						<td>13 – 18 July 2022</td>
+						<td>17 July – 20 July 2023</td>
+						<td>20 July 2023</td>
 					</tr>
 					<tr>
-						<td>5</td>
-						<td>Semester II Lecture Begin</td>
+						<td>5.</td>
+						<td>Semester July Lecture Begin</td>
 						<td>
-							31 July 2022* (Johor Bahru Campus) <br />
-							1 August 2022* (Kuala Lumpur Campus)
+							Johor Bahru Center    : 30 July 2023 <br />
+							Kuala Lumpur Center : 31 July 2023
 						</td>
 						<td>
 							31 July 2022* (Johor Bahru Campus) <br />
@@ -77,15 +78,8 @@
 						</td>
 					</tr>
 				</tbody>
-				<tfoot>
-					<tr>
-						<th>No</th>
-						<th>Item</th>
-						<th>Local Date</th>
-						<th>International Date</th>
-					</tr>
-				</tfoot>
 			</v-table>
+			<p class="font-weight-bold">*Subject to change</p>
 		</v-col>
 	</v-row>
 
