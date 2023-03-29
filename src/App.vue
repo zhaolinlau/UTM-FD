@@ -1,6 +1,7 @@
 <script setup>
 import { RouterView } from 'vue-router'
 import AppBar from './components/AppBar.vue'
+import AppNav from './components/AppNav.vue'
 import AppFooter from './components/AppFooter.vue'
 </script>
 
@@ -8,6 +9,7 @@ import AppFooter from './components/AppFooter.vue'
 	<v-layout>
 		<v-main>
 			<AppBar />
+			<AppNav />
 			<v-container fluid>
 				<RouterView />
 			</v-container>
