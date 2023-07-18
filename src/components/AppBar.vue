@@ -1,7 +1,17 @@
 <script setup>
 import { useTheme } from 'vuetify'
-const toggleTheme = () => theme.global.name.value = theme.global.current.value.dark ? 'light' : 'dark'
+
+const toggleTheme = () => {
+	const newTheme = theme.global.current.value.dark ? 'light' : 'dark'
+	theme.global.name.value = newTheme
+	document.documentElement.setAttribute('data-theme', newTheme)
+}
+
 const theme = useTheme()
+
+const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+theme.global.name.value = prefersDark ? 'dark' : 'light'
+document.documentElement.setAttribute('data-theme', prefersDark ? 'dark' : 'light')
 </script>
 
 <template>
